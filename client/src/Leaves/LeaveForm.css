@@ -1,0 +1,186 @@
+
+.details-header {
+  color: #face4d;
+  padding: 20px 20px 20px 20px;
+  border-bottom: 2px solid #fff;
+}
+.main {
+  grid-area: main;
+  overflow-y: auto;
+  background-color: #2f2f2f;
+}
+.registration-container-leave {
+  display: flex;
+  grid-template-columns: 1fr;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  margin: 1px;
+  margin-bottom: 300px;
+  padding: 20px 120px;
+  /* color: rgb(163, 116, 41); */
+  color: #face4d !important;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.registration-container-leave .registration-form-leave {
+  width: 300%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-radius: 15px;
+  /* box-shadow: 0 0 10px rgb(163, 116, 41);
+  box-shadow: 0 0 10px #face4d; */
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: fit-content;
+  /* background-color: rgb(235, 211, 173); */
+  background-color: #4b4b4b;
+  /* opacity: 0.5; */
+  /* border: 2px solid rgb(248, 241, 228); */
+  border: 2px solid #face4d;
+  backdrop-filter: blur(30px);
+  margin-bottom: 20px;
+  color: #face4d !important;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* margin-top: 50px; */
+  /* margin-right: 50px; */
+}
+
+.registration-container-leave .registration-form-leave:hover {
+  box-shadow: 0 0 8px #face4d;
+}
+
+.form-column-leave {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.form-group-leave input::placeholder {
+  color: rgb(163, 116, 41);
+}
+
+.form-group-leave input {
+  margin-bottom: 10px;
+  position: relative;
+  /* background: rgb(248, 240, 227); */
+  background-color: #3c3c3c;
+  border: 2px solid #face4d;
+  outline: none;
+  /* border-radius: 40px; */
+  font-size: 16px;
+  color: #face4d;
+  /* padding: 20px 45px 20px 20px; */
+}
+
+.form-group-leave select {
+  margin-bottom: 10px;
+  position: relative;
+  background: #3c3c3c;
+  border: 2px solid #face4d;
+  outline: none;
+  /* border-radius: 40px; */
+  font-size: 16px;
+  color: #face4d;
+}
+
+.form-group-leave textarea {
+  margin-bottom: 10px;
+  position: relative;
+  background: #3c3c3c;
+  border: 2px solid #face4d;
+  outline: none;
+  /* border-radius: 40px; */
+  font-size: 16px;
+  color: #face4d;
+  /* padding: 20px 45px 20px 20px; */
+}
+
+.form-group-leave option {
+  background-color: #3c3c3c;
+  color: #face4d;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  /* color: rgb(163, 116, 41); */
+  color: #face4d !important;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #face4d !important  ;
+  color: #000000 !important;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  /* margin-top: -10px; */
+  align-content: center;
+}
+
+.registration-container-leave .title {
+  align-content: CENTER;
+  padding-bottom: 10px;
+  /* padding-top: -10px; */
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #face4d;
+}
+
+.registration-form-leave .lregister {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+.lregister p a {
+  color: rgb(163, 116, 41);
+  text-decoration: none;
+  /* font-weight: 600; */
+}
+
+.lregister p a:hover {
+  text-decoration: underline;
+}
+
+
+@keyframes explode {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(10);
+    opacity: 0;
+  }
+}
+
+.explosion {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.5); /* Adjust color and opacity */
+  animation: explode 0.5s ease-out forwards;
+}

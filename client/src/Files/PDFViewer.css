@@ -1,0 +1,111 @@
+/* .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .embed-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+   */
+
+   /* .pdf-container{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    z-index: 1000 !important;
+   }
+
+   .wrap{
+    margin: 20px;
+    justify-content: center;
+    z-index: 1000;
+   }
+
+   .controls{
+    margin: 20px;
+    justify-content: center;
+   } */
+
+   /* .controls button{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-right: 2rem;
+    outline: none;
+    border: none;
+    box-shadow: 1px 2px 5px black;
+   } */
+
+
+
+   /* PDFViewer.css */
+
+   .pdf-viewer {
+    z-index: 9999; /* Set a high z-index value */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .pdf-container {
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    z-index: 9999; /* Ensure the PDF container is on top */
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  

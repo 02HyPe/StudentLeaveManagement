@@ -1,0 +1,18 @@
+.grid-user {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  /* padding-left: -150px;
+  padding-right: -150px; */
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    "sidebar header header header"
+    "sidebar main main main";
+  height: 100vh;
+  /* position: relative; */
+}
+
+.main-user {
+  grid-area: main;
+  overflow-y: auto;
+  background-color: #2f2f2f;
+}
