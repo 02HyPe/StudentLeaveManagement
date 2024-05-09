@@ -9217,3 +9217,5043 @@
 [2024-05-07T16:34:01.657] [INFO] default - student leave list []
 [2024-05-07T17:01:35.814] [INFO] default - MongoDB Connected
 [2024-05-07T17:01:35.817] [INFO] default - Connected to DB
+[2024-05-09T14:40:05.176] [INFO] default - MongoDB Connected
+[2024-05-09T14:40:05.178] [INFO] default - Connected to DB
+[2024-05-09T14:42:05.072] [INFO] default - MongoDB Connected
+[2024-05-09T14:42:05.075] [INFO] default - Connected to DB
+[2024-05-09T14:44:16.898] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+} userresult--
+[2024-05-09T14:44:17.726] [INFO] default - -------body {}
+[2024-05-09T14:44:17.726] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYwNTd9.M0_9U7h4xMooshEThQgHDU8Y4KmRy_V6sZzSxSiC3CM
+[2024-05-09T14:44:17.729] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246057
+}
+[2024-05-09T14:44:17.729] [INFO] default - Student usertype
+[2024-05-09T14:44:17.732] [INFO] default - -------body {}
+[2024-05-09T14:44:17.732] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYwNTd9.M0_9U7h4xMooshEThQgHDU8Y4KmRy_V6sZzSxSiC3CM
+[2024-05-09T14:44:17.733] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246057
+}
+[2024-05-09T14:44:17.733] [INFO] default - Student usertype
+[2024-05-09T14:44:17.744] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+]
+[2024-05-09T14:44:17.746] [INFO] default - -------body {}
+[2024-05-09T14:44:17.746] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYwNTd9.M0_9U7h4xMooshEThQgHDU8Y4KmRy_V6sZzSxSiC3CM
+[2024-05-09T14:44:17.749] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246057
+}
+[2024-05-09T14:44:17.750] [INFO] default - Student usertype
+[2024-05-09T14:44:17.752] [INFO] default - student---- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:44:17.763] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+]
+[2024-05-09T14:44:17.803] [INFO] default - ----studentresandleave [
+  {
+    _id: new ObjectId('66387630c8b3d5c8b48406e9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Shruti Revdiwala',
+    coOrdinatorStatus: 'Pending',
+    status: 'Approved',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387632c8b3d5c8b48406ed'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Shruti Revdiwala',
+    coOrdinatorStatus: 'Pending',
+    status: 'Rejected',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387634c8b3d5c8b48406f1'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387641c8b3d5c8b48406f5'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387642c8b3d5c8b48406f9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387643c8b3d5c8b48406fd'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a21c78233468f3f48b8'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a2ac78233468f3f48be'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a34c78233468f3f48c4'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Sports',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a37c78233468f3f48c8'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a39c78233468f3f48cc'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a7ac78233468f3f48d6'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd2ebbdf3902c9fbe13'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd2ebbdf3902c9fbe17'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe1b'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe1f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe23'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe27'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe2b'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd4ebbdf3902c9fbe2f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd8ebbdf3902c9fbe33'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978008700-package.json',
+      filePath: 'backend\\api\\uploads\\1714978008700-package.json'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387ceb5f10412bc6da3904'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978027653-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978027653-980283.jpg'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cec5f10412bc6da3908'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978028234-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978028234-980283.jpg'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663888e7889342596f808e72'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-07T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  }
+]
+[2024-05-09T14:44:17.811] [INFO] default - student leave list [
+  {
+    leave_id: new ObjectId('66387630c8b3d5c8b48406e9'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Approved',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387632c8b3d5c8b48406ed'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Rejected',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387634c8b3d5c8b48406f1'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387641c8b3d5c8b48406f5'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387642c8b3d5c8b48406f9'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387643c8b3d5c8b48406fd'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a21c78233468f3f48b8'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a2ac78233468f3f48be'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a34c78233468f3f48c4'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Sports',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a37c78233468f3f48c8'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a39c78233468f3f48cc'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a7ac78233468f3f48d6'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd2ebbdf3902c9fbe13'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd2ebbdf3902c9fbe17'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe1b'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe1f'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe23'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe27'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe2b'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd4ebbdf3902c9fbe2f'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd8ebbdf3902c9fbe33'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978008700-package.json',
+      filePath: 'backend\\api\\uploads\\1714978008700-package.json'
+    }
+  },
+  {
+    leave_id: new ObjectId('66387ceb5f10412bc6da3904'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978027653-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978027653-980283.jpg'
+    }
+  },
+  {
+    leave_id: new ObjectId('66387cec5f10412bc6da3908'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978028234-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978028234-980283.jpg'
+    }
+  },
+  {
+    leave_id: new ObjectId('663888e7889342596f808e72'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-07T00:00:00.000Z,
+    description: 'poi',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  }
+]
+[2024-05-09T14:44:25.455] [INFO] default - -------body {}
+[2024-05-09T14:44:25.455] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYwNTd9.M0_9U7h4xMooshEThQgHDU8Y4KmRy_V6sZzSxSiC3CM
+[2024-05-09T14:44:25.458] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246057
+}
+[2024-05-09T14:44:25.458] [INFO] default - Student usertype
+[2024-05-09T14:44:25.470] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:44:25.482] [INFO] default - user profile {
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  email: 'rudra@gmail.com',
+  phoneNumber: '8200859181',
+  enrollno: 'SR21BSIT127',
+  mentorFirstName: 'Nirali',
+  mentorLastName: 'Varu',
+  department: 'CS',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  batch: 'TYCS-B'
+}
+[2024-05-09T14:44:25.485] [INFO] default - -------body {}
+[2024-05-09T14:44:25.486] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYwNTd9.M0_9U7h4xMooshEThQgHDU8Y4KmRy_V6sZzSxSiC3CM
+[2024-05-09T14:44:25.487] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246057
+}
+[2024-05-09T14:44:25.487] [INFO] default - Student usertype
+[2024-05-09T14:44:25.499] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:44:25.511] [INFO] default - user profile {
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  email: 'rudra@gmail.com',
+  phoneNumber: '8200859181',
+  enrollno: 'SR21BSIT127',
+  mentorFirstName: 'Nirali',
+  mentorLastName: 'Varu',
+  department: 'CS',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  batch: 'TYCS-B'
+}
+[2024-05-09T14:44:56.224] [INFO] default - null userresult--
+[2024-05-09T14:45:03.040] [INFO] default - {
+  _id: new ObjectId('660a526ad335eb0203de37a5'),
+  type: 'Admin',
+  email: 'admin@gmail.com',
+  firstName: 'admin',
+  lastName: 'admin',
+  password: '$2a$12$foWkQrnGUOiY5e94EnItNOyEqDOtPHF1w1vVCD0jZdu1MxxZKItqC',
+  phoneNumber: '1909569089',
+  batch: [],
+  __v: 0,
+  userId: 'admin',
+  leave: 0
+} userresult--
+[2024-05-09T14:45:03.861] [INFO] default - -------body {}
+[2024-05-09T14:45:03.861] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiQWRtaW4iLCJuYW1lIjoiYWRtaW4gYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjBhNTI2YWQzMzVlYjAyMDNkZTM3YTUiLCJpYXQiOjE3MTUyNDYxMDN9.43xbTlbN2SfRBCXbp9lipQSQGfbJqg0UM2TkTD0Lu88
+[2024-05-09T14:45:03.862] [INFO] default - {
+  type: 'Admin',
+  name: 'admin admin',
+  email: 'admin@gmail.com',
+  user_id: '660a526ad335eb0203de37a5',
+  iat: 1715246103
+}
+[2024-05-09T14:45:03.862] [INFO] default - Admin usertype
+[2024-05-09T14:45:03.864] [INFO] default - -------body {}
+[2024-05-09T14:45:03.865] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiQWRtaW4iLCJuYW1lIjoiYWRtaW4gYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjBhNTI2YWQzMzVlYjAyMDNkZTM3YTUiLCJpYXQiOjE3MTUyNDYxMDN9.43xbTlbN2SfRBCXbp9lipQSQGfbJqg0UM2TkTD0Lu88
+[2024-05-09T14:45:03.866] [INFO] default - {
+  type: 'Admin',
+  name: 'admin admin',
+  email: 'admin@gmail.com',
+  user_id: '660a526ad335eb0203de37a5',
+  iat: 1715246103
+}
+[2024-05-09T14:45:03.866] [INFO] default - Admin usertype
+[2024-05-09T14:45:03.877] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+]
+[2024-05-09T14:45:03.883] [INFO] default - -------body {}
+[2024-05-09T14:45:03.883] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiQWRtaW4iLCJuYW1lIjoiYWRtaW4gYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjBhNTI2YWQzMzVlYjAyMDNkZTM3YTUiLCJpYXQiOjE3MTUyNDYxMDN9.43xbTlbN2SfRBCXbp9lipQSQGfbJqg0UM2TkTD0Lu88
+[2024-05-09T14:45:03.884] [INFO] default - {
+  type: 'Admin',
+  name: 'admin admin',
+  email: 'admin@gmail.com',
+  user_id: '660a526ad335eb0203de37a5',
+  iat: 1715246103
+}
+[2024-05-09T14:45:03.884] [INFO] default - Admin usertype
+[2024-05-09T14:45:03.896] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+]
+[2024-05-09T14:45:03.914] [INFO] default - [
+  {
+    _id: new ObjectId('66387630c8b3d5c8b48406e9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Shruti Revdiwala',
+    coOrdinatorStatus: 'Pending',
+    status: 'Approved',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387632c8b3d5c8b48406ed'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Shruti Revdiwala',
+    coOrdinatorStatus: 'Pending',
+    status: 'Rejected',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387634c8b3d5c8b48406f1'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387641c8b3d5c8b48406f5'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387642c8b3d5c8b48406f9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387643c8b3d5c8b48406fd'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a21c78233468f3f48b8'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a2ac78233468f3f48be'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a34c78233468f3f48c4'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Sports',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a37c78233468f3f48c8'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a39c78233468f3f48cc'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a7ac78233468f3f48d6'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd2ebbdf3902c9fbe13'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd2ebbdf3902c9fbe17'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe1b'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe1f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe23'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe27'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe2b'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd4ebbdf3902c9fbe2f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd8ebbdf3902c9fbe33'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978008700-package.json',
+      filePath: 'backend\\api\\uploads\\1714978008700-package.json'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387ceb5f10412bc6da3904'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978027653-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978027653-980283.jpg'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cec5f10412bc6da3908'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978028234-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978028234-980283.jpg'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663888e7889342596f808e72'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-07T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c8ff86207f43d59fe0fa9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    ttlLeaves: 20,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c90076207f43d59fe0fae'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    ttlLeaves: 20,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c90366207f43d59fe0fbc'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    ttlLeaves: 4,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  }
+]
+[2024-05-09T14:45:03.950] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.951] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.952] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.959] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.961] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.962] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.970] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.971] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.973] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.980] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.981] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.984] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.991] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.992] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:03.995] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.001] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.005] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.012] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.016] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.024] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.028] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.034] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 44
+}
+[2024-05-09T14:45:04.038] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 44
+}
+[2024-05-09T14:45:04.043] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 44
+}
+[2024-05-09T14:45:04.046] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.246] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.336] [INFO] default - userresult-- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:04.337] [INFO] default - -0-0-0-00- [
+  {
+    leave_id: new ObjectId('66387630c8b3d5c8b48406e9'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Approved',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387632c8b3d5c8b48406ed'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Rejected',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387634c8b3d5c8b48406f1'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387641c8b3d5c8b48406f5'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387642c8b3d5c8b48406f9'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387643c8b3d5c8b48406fd'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a21c78233468f3f48b8'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a2ac78233468f3f48be'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a34c78233468f3f48c4'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Sports',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a37c78233468f3f48c8'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a39c78233468f3f48cc'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a7ac78233468f3f48d6'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd2ebbdf3902c9fbe13'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd2ebbdf3902c9fbe17'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe1b'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe1f'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe23'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe27'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe2b'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd4ebbdf3902c9fbe2f'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd8ebbdf3902c9fbe33'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: {
+      fileName: '1714978008700-package.json',
+      filePath: 'backend\\api\\uploads\\1714978008700-package.json'
+    }
+  },
+  {
+    leave_id: new ObjectId('66387ceb5f10412bc6da3904'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: {
+      fileName: '1714978027653-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978027653-980283.jpg'
+    }
+  },
+  {
+    leave_id: new ObjectId('66387cec5f10412bc6da3908'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    attachment: {
+      fileName: '1714978028234-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978028234-980283.jpg'
+    }
+  },
+  {
+    leave_id: new ObjectId('663888e7889342596f808e72'),
+    userAuthority: 'Student',
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-07T00:00:00.000Z,
+    description: 'poi',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c8ff86207f43d59fe0fa9'),
+    userAuthority: 'Student',
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 20,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    description: 'poi',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c90076207f43d59fe0fae'),
+    userAuthority: 'Student',
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 20,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    description: 'poi',
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c90366207f43d59fe0fbc'),
+    userAuthority: 'Student',
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 4,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    description: 'poi',
+    attachment: undefined
+  }
+]
+[2024-05-09T14:45:28.385] [INFO] default - -------body {
+  leaveName: 'holidayfreee',
+  typeOfLeave: '',
+  leaveDays: '1',
+  leaveDate: '2024-05-10',
+  authority: [],
+  leaveFor: [],
+  publicHoliday: true
+}
+[2024-05-09T14:45:28.385] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiQWRtaW4iLCJuYW1lIjoiYWRtaW4gYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjBhNTI2YWQzMzVlYjAyMDNkZTM3YTUiLCJpYXQiOjE3MTUyNDYxMDN9.43xbTlbN2SfRBCXbp9lipQSQGfbJqg0UM2TkTD0Lu88
+[2024-05-09T14:45:28.386] [INFO] default - {
+  type: 'Admin',
+  name: 'admin admin',
+  email: 'admin@gmail.com',
+  user_id: '660a526ad335eb0203de37a5',
+  iat: 1715246103
+}
+[2024-05-09T14:45:28.386] [INFO] default - Admin usertype
+[2024-05-09T14:45:28.387] [INFO] default - leavetype details {
+  leaveName: 'holidayfreee',
+  typeOfLeave: '',
+  leaveDays: '1',
+  leaveDate: '2024-05-10',
+  authority: [],
+  leaveFor: [],
+  publicHoliday: true
+}
+[2024-05-09T14:45:28.389] [INFO] default - {
+  numberOfLeave: 1,
+  authority: [],
+  _id: new ObjectId('663c9430f83788f9c767f4ba'),
+  leaveName: 'holidayfreee',
+  leaveDate: 2024-05-10T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday'
+}
+[2024-05-09T14:45:36.662] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+} userresult--
+[2024-05-09T14:45:37.513] [INFO] default - -------body {}
+[2024-05-09T14:45:37.514] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:45:37.515] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:45:37.515] [INFO] default - Student usertype
+[2024-05-09T14:45:37.518] [INFO] default - -------body {}
+[2024-05-09T14:45:37.518] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:45:37.519] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:45:37.519] [INFO] default - Student usertype
+[2024-05-09T14:45:37.526] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+]
+[2024-05-09T14:45:37.528] [INFO] default - -------body {}
+[2024-05-09T14:45:37.528] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:45:37.529] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:45:37.529] [INFO] default - Student usertype
+[2024-05-09T14:45:37.531] [INFO] default - student---- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:37.543] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+]
+[2024-05-09T14:45:37.581] [INFO] default - ----studentresandleave [
+  {
+    _id: new ObjectId('66387630c8b3d5c8b48406e9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Shruti Revdiwala',
+    coOrdinatorStatus: 'Pending',
+    status: 'Approved',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387632c8b3d5c8b48406ed'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Shruti Revdiwala',
+    coOrdinatorStatus: 'Pending',
+    status: 'Rejected',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387634c8b3d5c8b48406f1'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387641c8b3d5c8b48406f5'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387642c8b3d5c8b48406f9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387643c8b3d5c8b48406fd'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a21c78233468f3f48b8'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a2ac78233468f3f48be'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a34c78233468f3f48c4'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Sports',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a37c78233468f3f48c8'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a39c78233468f3f48cc'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a7ac78233468f3f48d6'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd2ebbdf3902c9fbe13'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd2ebbdf3902c9fbe17'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe1b'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe1f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe23'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe27'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe2b'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd4ebbdf3902c9fbe2f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd8ebbdf3902c9fbe33'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978008700-package.json',
+      filePath: 'backend\\api\\uploads\\1714978008700-package.json'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387ceb5f10412bc6da3904'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978027653-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978027653-980283.jpg'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cec5f10412bc6da3908'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978028234-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978028234-980283.jpg'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663888e7889342596f808e72'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-07T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  }
+]
+[2024-05-09T14:45:37.586] [INFO] default - student leave list [
+  {
+    leave_id: new ObjectId('66387630c8b3d5c8b48406e9'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Approved',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387632c8b3d5c8b48406ed'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Rejected',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387634c8b3d5c8b48406f1'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387641c8b3d5c8b48406f5'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387642c8b3d5c8b48406f9'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387643c8b3d5c8b48406fd'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a21c78233468f3f48b8'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a2ac78233468f3f48be'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a34c78233468f3f48c4'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Sports',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a37c78233468f3f48c8'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a39c78233468f3f48cc'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a7ac78233468f3f48d6'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd2ebbdf3902c9fbe13'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd2ebbdf3902c9fbe17'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe1b'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe1f'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe23'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe27'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe2b'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd4ebbdf3902c9fbe2f'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd8ebbdf3902c9fbe33'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978008700-package.json',
+      filePath: 'backend\\api\\uploads\\1714978008700-package.json'
+    }
+  },
+  {
+    leave_id: new ObjectId('66387ceb5f10412bc6da3904'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978027653-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978027653-980283.jpg'
+    }
+  },
+  {
+    leave_id: new ObjectId('66387cec5f10412bc6da3908'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978028234-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978028234-980283.jpg'
+    }
+  },
+  {
+    leave_id: new ObjectId('663888e7889342596f808e72'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-07T00:00:00.000Z,
+    description: 'poi',
+    leave: 36,
+    leaveOutof: 7,
+    attachment: undefined
+  }
+]
+[2024-05-09T14:45:39.777] [INFO] default - -------body {}
+[2024-05-09T14:45:39.777] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:45:39.778] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:45:39.779] [INFO] default - Student usertype
+[2024-05-09T14:45:39.791] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:39.802] [INFO] default - user profile {
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  email: 'rudra@gmail.com',
+  phoneNumber: '8200859181',
+  enrollno: 'SR21BSIT127',
+  mentorFirstName: 'Nirali',
+  mentorLastName: 'Varu',
+  department: 'CS',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  batch: 'TYCS-B'
+}
+[2024-05-09T14:45:39.805] [INFO] default - -------body {}
+[2024-05-09T14:45:39.805] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:45:39.806] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:45:39.807] [INFO] default - Student usertype
+[2024-05-09T14:45:39.818] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+}
+[2024-05-09T14:45:39.831] [INFO] default - user profile {
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  email: 'rudra@gmail.com',
+  phoneNumber: '8200859181',
+  enrollno: 'SR21BSIT127',
+  mentorFirstName: 'Nirali',
+  mentorLastName: 'Varu',
+  department: 'CS',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  batch: 'TYCS-B'
+}
+[2024-05-09T14:45:59.953] [INFO] default - -------body {}
+[2024-05-09T14:45:59.953] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:45:59.954] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:45:59.954] [INFO] default - Student usertype
+[2024-05-09T14:45:59.982] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 36
+} 6607bc70ad44afdad37b90d0
+[2024-05-09T14:45:59.996] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+]
+[2024-05-09T14:45:59.998] [INFO] default - attachments------ 
+[2024-05-09T14:45:59.998] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c944ff83788f9c767f4ca'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-09T14:46:00.035] [INFO] default - leave form applied {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c944ff83788f9c767f4ca'),
+  coOrdinatorHandledBy: 'Pending',
+  __v: 0
+} {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 40
+}
+[2024-05-09T14:46:52.504] [INFO] default - MongoDB Connected
+[2024-05-09T14:46:52.506] [INFO] default - Connected to DB
+[2024-05-09T14:47:00.658] [INFO] default - MongoDB Connected
+[2024-05-09T14:47:00.661] [INFO] default - Connected to DB
+[2024-05-09T14:47:10.775] [INFO] default - MongoDB Connected
+[2024-05-09T14:47:10.777] [INFO] default - Connected to DB
+[2024-05-09T14:47:11.515] [INFO] default - -------body {}
+[2024-05-09T14:47:11.516] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:47:11.518] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:47:11.519] [INFO] default - Student usertype
+[2024-05-09T14:47:11.543] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 40
+} 6607bc70ad44afdad37b90d0
+[2024-05-09T14:47:11.559] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+]
+[2024-05-09T14:47:11.565] [INFO] default - attachments------ 
+[2024-05-09T14:47:11.565] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c9497902c307adab543d3'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-09T14:47:11.606] [INFO] default - leave form applied {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c9497902c307adab543d3'),
+  coOrdinatorHandledBy: 'Pending',
+  __v: 0
+} {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 44
+}
+[2024-05-09T14:48:02.699] [INFO] default - MongoDB Connected
+[2024-05-09T14:48:02.701] [INFO] default - Connected to DB
+[2024-05-09T14:48:04.400] [INFO] default - -------body {}
+[2024-05-09T14:48:04.400] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:48:04.402] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:48:04.403] [INFO] default - Student usertype
+[2024-05-09T14:48:04.428] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 44
+} 6607bc70ad44afdad37b90d0
+[2024-05-09T14:48:04.447] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-09T14:48:32.539] [INFO] default - MongoDB Connected
+[2024-05-09T14:48:32.541] [INFO] default - Connected to DB
+[2024-05-09T14:49:32.570] [INFO] default - -------body {}
+[2024-05-09T14:49:32.570] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:49:32.573] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:49:32.573] [INFO] default - Student usertype
+[2024-05-09T14:49:32.597] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 44
+} 6607bc70ad44afdad37b90d0
+[2024-05-09T14:49:32.614] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-09T14:49:32.616] [INFO] default - {
+  _id: new ObjectId('662f7ae52a30057a7fe27742'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.617] [INFO] default - {
+  _id: new ObjectId('662f7ae92a30057a7fe27744'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.618] [INFO] default - {
+  _id: new ObjectId('66388145c6da90facc35b5d1'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.619] [INFO] default - {
+  _id: new ObjectId('66388149c6da90facc35b5d3'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.620] [INFO] default - {
+  _id: new ObjectId('663c9430f83788f9c767f4ba'),
+  numberOfLeave: 1,
+  authority: [],
+  leaveName: 'holidayfreee',
+  leaveDate: 2024-05-10T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.620] [INFO] default - {
+  _id: new ObjectId('662f7ae52a30057a7fe27742'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.620] [INFO] default - {
+  _id: new ObjectId('662f7ae92a30057a7fe27744'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.621] [INFO] default - {
+  _id: new ObjectId('66388145c6da90facc35b5d1'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.622] [INFO] default - {
+  _id: new ObjectId('66388149c6da90facc35b5d3'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.622] [INFO] default - {
+  _id: new ObjectId('663c9430f83788f9c767f4ba'),
+  numberOfLeave: 1,
+  authority: [],
+  leaveName: 'holidayfreee',
+  leaveDate: 2024-05-10T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.622] [INFO] default - {
+  _id: new ObjectId('662f7ae52a30057a7fe27742'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.623] [INFO] default - {
+  _id: new ObjectId('662f7ae92a30057a7fe27744'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.623] [INFO] default - {
+  _id: new ObjectId('66388145c6da90facc35b5d1'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.623] [INFO] default - {
+  _id: new ObjectId('66388149c6da90facc35b5d3'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.623] [INFO] default - {
+  _id: new ObjectId('663c9430f83788f9c767f4ba'),
+  numberOfLeave: 1,
+  authority: [],
+  leaveName: 'holidayfreee',
+  leaveDate: 2024-05-10T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.624] [INFO] default - {
+  _id: new ObjectId('662f7ae52a30057a7fe27742'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.625] [INFO] default - {
+  _id: new ObjectId('662f7ae92a30057a7fe27744'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.625] [INFO] default - {
+  _id: new ObjectId('66388145c6da90facc35b5d1'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.625] [INFO] default - {
+  _id: new ObjectId('66388149c6da90facc35b5d3'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.626] [INFO] default - {
+  _id: new ObjectId('663c9430f83788f9c767f4ba'),
+  numberOfLeave: 1,
+  authority: [],
+  leaveName: 'holidayfreee',
+  leaveDate: 2024-05-10T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.626] [INFO] default - {
+  _id: new ObjectId('662f7ae52a30057a7fe27742'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.626] [INFO] default - {
+  _id: new ObjectId('662f7ae92a30057a7fe27744'),
+  typeOfLeave: 'Public Holiday',
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty' ],
+  leaveName: '123',
+  leaveDate: 2024-04-29T00:00:00.000Z,
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.627] [INFO] default - {
+  _id: new ObjectId('66388145c6da90facc35b5d1'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.627] [INFO] default - {
+  _id: new ObjectId('66388149c6da90facc35b5d3'),
+  numberOfLeave: 1,
+  authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+  leaveName: 'holi',
+  leaveDate: 2024-05-22T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.627] [INFO] default - {
+  _id: new ObjectId('663c9430f83788f9c767f4ba'),
+  numberOfLeave: 1,
+  authority: [],
+  leaveName: 'holidayfreee',
+  leaveDate: 2024-05-10T00:00:00.000Z,
+  typeOfLeave: 'Public Holiday',
+  __v: 0
+} [Function: getDate] comparison
+[2024-05-09T14:49:32.631] [INFO] default - attachments------ 
+[2024-05-09T14:49:32.631] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: -21,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c95246ac2a989faf4dbd3'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-09T14:49:32.896] [INFO] default - leave form applied {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: -21,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c95246ac2a989faf4dbd3'),
+  coOrdinatorHandledBy: 'Pending',
+  __v: 0
+} {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 23
+}
+[2024-05-09T14:50:57.942] [INFO] default - MongoDB Connected
+[2024-05-09T14:50:57.944] [INFO] default - Connected to DB
+[2024-05-09T14:51:00.103] [INFO] default - -------body {}
+[2024-05-09T14:51:00.104] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:51:00.106] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:51:00.107] [INFO] default - Student usertype
+[2024-05-09T14:51:00.133] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 23
+} 6607bc70ad44afdad37b90d0
+[2024-05-09T14:51:00.147] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-09T14:51:00.149] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.150] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.150] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.150] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.150] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.150] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.151] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.152] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.152] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.152] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.152] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.152] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.152] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.152] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.152] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:51:00.155] [INFO] default - attachments------ 
+[2024-05-09T14:51:00.155] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c957c4e70ffa7476221c5'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-09T14:51:00.195] [INFO] default - leave form applied {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c957c4e70ffa7476221c5'),
+  coOrdinatorHandledBy: 'Pending',
+  __v: 0
+} {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 27
+}
+[2024-05-09T14:51:51.703] [INFO] default - MongoDB Connected
+[2024-05-09T14:51:51.706] [INFO] default - Connected to DB
+[2024-05-09T14:51:59.013] [INFO] default - MongoDB Connected
+[2024-05-09T14:51:59.015] [INFO] default - Connected to DB
+[2024-05-09T14:52:05.559] [INFO] default - -------body {}
+[2024-05-09T14:52:05.559] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:52:05.562] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:52:05.563] [INFO] default - Student usertype
+[2024-05-09T14:52:05.588] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 27
+} 6607bc70ad44afdad37b90d0
+[2024-05-09T14:52:05.603] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-09T14:52:05.605] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.605] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.606] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.606] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.606] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.606] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.606] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.606] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.606] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.606] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.607] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.608] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.608] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.608] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:05.612] [INFO] default - attachments------ 
+[2024-05-09T14:52:05.612] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c95bd7ef5f2ade632bd1c'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-09T14:52:05.655] [INFO] default - leave form applied {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c95bd7ef5f2ade632bd1c'),
+  coOrdinatorHandledBy: 'Pending',
+  __v: 0
+} {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 31
+}
+[2024-05-09T14:52:21.599] [INFO] default - -------body {}
+[2024-05-09T14:52:21.601] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTUyNDYxMzZ9.1gNja62ug9Lh80pDoBoPQzt7Aea3s3aUskAhNE_H92I
+[2024-05-09T14:52:21.604] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715246136
+}
+[2024-05-09T14:52:21.604] [INFO] default - Student usertype
+[2024-05-09T14:52:21.748] [INFO] default - MongoDB Connected
+[2024-05-09T14:52:21.749] [INFO] default - Connected to DB
+[2024-05-09T14:52:21.770] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 31
+} 6607bc70ad44afdad37b90d0
+[2024-05-09T14:52:21.795] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-09T14:52:21.798] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.798] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.798] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.799] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.799] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.799] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.799] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.800] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.801] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.801] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.801] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.801] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.801] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.801] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.801] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.801] [INFO] default - [Function: getDate] [Function: getDate] comparison
+[2024-05-09T14:52:21.804] [INFO] default - attachments------ 
+[2024-05-09T14:52:21.804] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c95cdfb75eb6fc9d2b6ff'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-09T14:52:22.202] [INFO] default - leave form applied {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+    email: 'rudra@gmail.com'
+  },
+  typeOfLeave: 'Medical',
+  dateFrom: 2024-05-09T00:00:00.000Z,
+  dateTo: 2024-05-13T00:00:00.000Z,
+  ttlLeaves: 4,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('663c95cdfb75eb6fc9d2b6ff'),
+  coOrdinatorHandledBy: 'Pending',
+  __v: 0
+} {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 35
+}
+[2024-05-09T14:53:02.520] [INFO] default - MongoDB Connected
+[2024-05-09T14:53:02.522] [INFO] default - Connected to DB

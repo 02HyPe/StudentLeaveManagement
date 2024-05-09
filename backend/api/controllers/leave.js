@@ -19,8 +19,8 @@ const createLeave = async (req, res, next) => {
       leave["leaveName"] = body.leaveName;
       leave["leaveDate"] = body.leaveDate;
       leave["typeOfLeave"] = "Public Holiday";
-    }else if ( body.publicHoliday === false){
-      leave["typeOfLeave"]= body.leaveName;
+    } else if (body.publicHoliday === false) {
+      leave["typeOfLeave"] = body.leaveName;
     }
     logger.info(leave);
     const result = await leave.save();
@@ -34,12 +34,14 @@ const createLeave = async (req, res, next) => {
 
 const leaveTypeDetails = async (req, res, next) => {
   try {
-    const leaveType = await Leave.find({ typeOfLeave: { $ne: "Public Holiday" } });
-    const leavesType = leaveType.map(leave => ({
+    const leaveType = await Leave.find({
+      typeOfLeave: { $ne: "Public Holiday" },
+    });
+    const leavesType = leaveType.map((leave) => ({
       name: leave.typeOfLeave,
       days: leave.numberOfLeave,
     }));
-    logger.info(leavesType)
+    logger.info(leavesType);
     return res.status(200).json(leavesType);
   } catch (err) {
     logger.error(err, "leavetype details err");
@@ -58,6 +60,9 @@ const applyLeave = async (req, res, next) => {
     const user = await User.findById(req.user_id);
     logger.info("leaveDetails controller", user, req.user_id);
 
+    const leaveDtls = await Leave.find({ typeOfLeave: "Public Holiday" });
+    logger.info(leaveDtls, "array of dates");
+
     currentDate.setDate(currentDate.getDate() - 1);
 
     if (dateFrom < currentDate || dateFrom > dateTo) {
@@ -65,6 +70,12 @@ const applyLeave = async (req, res, next) => {
     }
 
     while (dateFrom <= dateTo) {
+      // leaveDtls.forEach((date) => {
+      //   const leaveDate = date.leaveDate;
+      //   if (dateFrom.getDate === leaveDate.getDate) {
+      //     logger.info(leaveDate.getDate, dateFrom.getDate, "comparison");
+      //   }
+      // });
       if (dateFrom.getDay() !== 0) {
         console.log(dateFrom.getDay());
         leaves += 1;
@@ -72,6 +83,7 @@ const applyLeave = async (req, res, next) => {
       dates.push(dateFrom);
       dateFrom.setDate(dateFrom.getDate() + 1);
     }
+
     const ttlLeaveDays = user.leave + leaves;
 
     const leaveDetails = new LeaveDetails({
@@ -89,25 +101,24 @@ const applyLeave = async (req, res, next) => {
       status: "Pending",
     });
 
-    if (ttlLeaveDays > 7 ) {
+    if (ttlLeaveDays > 7) {
       if (
         body.typeOfLeave === "NSS" ||
         body.typeOfLeave === "NCC" ||
         body.typeOfLeave === "Sports" ||
         body.typeOfLeave === "Medical"
       ) {
-        
+        if (ttlLeaveDays > 45) {
+          return res.status(200).json({ eligible: false });
+        }
+
         leaveDetails["coOrdinatorHandledBy"] = "Pending";
         leaveDetails["coOrdinatorStatus"] = "Pending";
-
-        
-       
-      }else
-      {
+        leaveDetails["activityLeave"] = ttlLeaveDays;
+      } else {
         return res.status(200).json({ eligible: false });
       }
     }
-    
 
     logger.info("attachments------", body.attachment);
 
@@ -143,7 +154,9 @@ const applyLeave = async (req, res, next) => {
     );
     logger.info("leave form applied", result, leaveInduction);
 
-    return res.status(200).json({ msg: "Leave applied successfully", eligible : true });
+    return res
+      .status(200)
+      .json({ msg: "Leave applied successfully", eligible: true });
   } catch (err) {
     logger.error(err, "Error while applying leave form");
 
