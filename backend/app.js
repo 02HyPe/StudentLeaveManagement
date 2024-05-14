@@ -95,7 +95,7 @@ cron.schedule(
   }
 );
 app.use("/auth", authRoutes);
-app.use("/user", isAuth, userRoutes);
+app.use("/user", userRoutes);
 app.use("/student", isAuth, studentRoutes);
 app.use("/moderator", isAuth, moderatorRoutes);
 app.use("/admin", isAuth, adminRoutes);

@@ -30,6 +30,8 @@ function Home(props) {
     rejectedLeaves: 0,
   });
   const [chartData, setChartData] = useState([]);
+  const [holiday, setHoliday] = useState([]);
+
   console.log(tokenPayload);
   console.log(token, "hghg");
   useEffect(() => {
@@ -42,16 +44,19 @@ function Home(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:9000/user/meduVadu", { headers })
+      .get("http://localhost:9000/user/dashboardDtls", { headers })
       .then((response) => {
         console.log(response.data);
-        setChartData(response.data);
+        setChartData(response.data.leavesType);
+        setHoliday(response.data.holidayLeaves);
+
         setLoading(false);
       })
       .catch((error) => {
         console.error("Error fetching chart data:", error);
       });
   }, []);
+  console.log(holiday);
 
   useEffect(() => {
     if (userType === "Admin") {
@@ -221,9 +226,14 @@ function Home(props) {
 
               <h2>
                 <ul className="ucard2">
-                  <li>Holi</li>
-                  <li>Diwali</li>
-                  <li>Navratri</li>
+                  {holiday.map((holiday, index) => (
+                    <li key={index}>
+                      <span>{holiday.name}</span>
+                      <span className="date">
+                        {holiday.date.substring(0, 10)}
+                      </span>
+                    </li>
+                  ))}
                 </ul>
               </h2>
               {/* // PDF View */}

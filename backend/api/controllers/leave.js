@@ -3,7 +3,6 @@ const Leave = require(`../config/mongoose.model`).leaveModel;
 const User = require(`../config/mongoose.model`).userModel;
 const fs = require("fs");
 const path = require("path");
-
 const { upload } = require("../middlewares/multer");
 
 const createLeave = async (req, res, next) => {
@@ -37,17 +36,48 @@ const leaveTypeDetails = async (req, res, next) => {
     const leaveType = await Leave.find({
       typeOfLeave: { $ne: "Public Holiday" },
     });
+    const currentDate = new Date();
+
+    const holidayLeave = await Leave.aggregate([
+      {
+        $match: {
+          leaveDate: { $exists: true, $ne: null },
+          leaveDate: { $gt: currentDate },
+        },
+      },
+      {
+        $addFields: {
+          dateDifference: { $subtract: ["$leaveDate", currentDate] },
+        },
+      },
+      {
+        $sort: {
+          dateDifference: 1,
+        },
+      },
+      {
+        $limit: 3,
+      },
+    ]);
+    // logger.info(holidayLeave, "awdawdadawdad");
     const leavesType = leaveType.map((leave) => ({
       name: leave.typeOfLeave,
       days: leave.numberOfLeave,
     }));
-    logger.info(leavesType);
-    return res.status(200).json(leavesType);
+
+    const holidayLeaves = holidayLeave.map((leave) => ({
+      name: leave.leaveName,
+      days: leave.numberOfLeave,
+      date: leave.leaveDate,
+    }));
+    logger.info(leavesType, holidayLeaves, "adada");
+    return res.status(200).json({ leavesType, holidayLeaves });
   } catch (err) {
     logger.error(err, "leavetype details err");
     return res.status(501).json({ msg: "error with leave type display" });
   }
 };
+
 const applyLeave = async (req, res, next) => {
   try {
     const body = req.body;
@@ -181,10 +211,10 @@ const displayLeaveDetails = async (req, res, next) => {
     const leavesRejected = await LeaveDetails.countDocuments({
       status: "Rejected",
     });
-    logger.info(leaveResult);
+    // logger.info(leaveResult);
     const promiseArray = leaveResult.map(async (leave) => {
       const userResult = await User.findById(leave.userInfo._id);
-      logger.info("userresult--", userResult);
+      // logger.info("userresult--", userResult);
       let attachmentData = null;
 
       const leaveData = {
@@ -209,7 +239,7 @@ const displayLeaveDetails = async (req, res, next) => {
       return leaveData;
     });
     const leaveData = await Promise.all(promiseArray);
-    logger.info("-0-0-0-00-", leaveData);
+    // logger.info("-0-0-0-00-", leaveData);
     return res.status(200).json({
       leaveData,
       pendingLeaves: leavesPending,
@@ -604,4 +634,5 @@ module.exports = {
   studentToMentorLeaveDetails: studentToMentorLeaveDetails,
   updateLeaveDetails: updateLeaveDetails,
   downloadAttachment: downloadAttachment,
+  chat: chat,
 };
