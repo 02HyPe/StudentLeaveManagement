@@ -11,5 +11,6 @@ router.post(
   LeaveController.applyLeave
 );
 router.get("/leaveAttachment", LeaveController.downloadAttachment);
-router.get("/meduVadu", LeaveController.leaveTypeDetails)
+router.get("/dashboardDtls", LeaveController.leaveTypeDetails);
+router.get(`/forgotpwd`);
 module.exports = router;
