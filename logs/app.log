@@ -28473,3 +28473,4358 @@
 [2024-05-13T16:32:58.162] [INFO] default - Connected to DB
 [2024-05-13T16:33:15.877] [INFO] default - MongoDB Connected
 [2024-05-13T16:33:15.880] [INFO] default - Connected to DB
+[2024-05-16T02:24:24.943] [INFO] default - MongoDB Connected
+[2024-05-16T02:24:24.945] [INFO] default - Connected to DB
+[2024-05-16T02:24:27.781] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+} userresult--
+[2024-05-16T02:24:28.652] [INFO] default - -------body {}
+[2024-05-16T02:24:28.652] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTgwNjQ2OH0.yOlGLVR7JVJj-wf6g-rk_nAwnwgHmhwq_Ed9abeRlvM
+[2024-05-16T02:24:28.654] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715806468
+}
+[2024-05-16T02:24:28.654] [INFO] default - Student usertype
+[2024-05-16T02:24:28.671] [INFO] default - student---- {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+}
+[2024-05-16T02:24:28.679] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T02:24:28.725] [INFO] default - ----studentresandleave [
+  {
+    _id: new ObjectId('663c8ff86207f43d59fe0fa9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    ttlLeaves: 20,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c90076207f43d59fe0fae'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    ttlLeaves: 20,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c90366207f43d59fe0fbc'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    ttlLeaves: 4,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('6641dcb8f6f2e84a671d17d1'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'Sports',
+    dateFrom: 2024-05-18T00:00:00.000Z,
+    dateTo: 2024-05-25T00:00:00.000Z,
+    ttlLeaves: 7,
+    description: 'kl',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  }
+]
+[2024-05-16T02:24:28.727] [INFO] default - student leave list [
+  {
+    leave_id: new ObjectId('663c8ff86207f43d59fe0fa9'),
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 20,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    description: 'poi',
+    leave: 47,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c90076207f43d59fe0fae'),
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 20,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    description: 'poi',
+    leave: 47,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c90366207f43d59fe0fbc'),
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 4,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    description: 'poi',
+    leave: 47,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('6641dcb8f6f2e84a671d17d1'),
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'Sports',
+    ttlLeaves: 7,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-18T00:00:00.000Z,
+    dateTo: 2024-05-25T00:00:00.000Z,
+    description: 'kl',
+    leave: 47,
+    leaveOutof: 7,
+    attachment: undefined
+  }
+]
+[2024-05-16T02:24:28.951] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T02:24:52.390] [INFO] default - null
+[2024-05-16T02:24:52.391] [INFO] default - error with getting profile TypeError: Cannot read properties of null (reading 'mentor')
+    at userDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\user.js:254:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-05-16T02:24:52.406] [INFO] default - null
+[2024-05-16T02:24:52.406] [INFO] default - error with getting profile TypeError: Cannot read properties of null (reading 'mentor')
+    at userDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\user.js:254:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-05-16T02:25:06.839] [INFO] default - null
+[2024-05-16T02:25:06.839] [INFO] default - error with getting profile TypeError: Cannot read properties of null (reading 'mentor')
+    at userDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\user.js:254:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-05-16T02:25:06.853] [INFO] default - null
+[2024-05-16T02:25:06.853] [INFO] default - error with getting profile TypeError: Cannot read properties of null (reading 'mentor')
+    at userDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\user.js:254:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-05-16T14:03:52.516] [INFO] default - MongoDB Connected
+[2024-05-16T14:03:52.519] [INFO] default - Connected to DB
+[2024-05-16T14:03:53.288] [INFO] default - undefined
+[2024-05-16T14:03:53.306] [INFO] default - null
+[2024-05-16T14:03:53.307] [INFO] default - error with getting profile TypeError: Cannot read properties of null (reading 'mentor')
+    at userDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\user.js:255:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-05-16T14:03:53.317] [INFO] default - undefined
+[2024-05-16T14:03:53.329] [INFO] default - null
+[2024-05-16T14:03:53.330] [INFO] default - error with getting profile TypeError: Cannot read properties of null (reading 'mentor')
+    at userDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\user.js:255:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-05-16T14:04:21.409] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 35
+} userresult--
+[2024-05-16T14:04:22.248] [INFO] default - -------body {}
+[2024-05-16T14:04:22.248] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTU4NDg0NjF9.9XT2WWTOKk0xvs1ZSgLM2rmA522yJvbJjV8iuVlIeRg
+[2024-05-16T14:04:22.251] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715848461
+}
+[2024-05-16T14:04:22.251] [INFO] default - Student usertype
+[2024-05-16T14:04:22.264] [INFO] default - student---- {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 35
+}
+[2024-05-16T14:04:22.272] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:04:22.305] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:04:22.324] [INFO] default - ----studentresandleave [
+  {
+    _id: new ObjectId('66387630c8b3d5c8b48406e9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Shruti Revdiwala',
+    coOrdinatorStatus: 'Pending',
+    status: 'Approved',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387632c8b3d5c8b48406ed'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Shruti Revdiwala',
+    coOrdinatorStatus: 'Pending',
+    status: 'Rejected',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387634c8b3d5c8b48406f1'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387641c8b3d5c8b48406f5'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387642c8b3d5c8b48406f9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387643c8b3d5c8b48406fd'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Vacation',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a21c78233468f3f48b8'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a2ac78233468f3f48be'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a34c78233468f3f48c4'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Sports',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a37c78233468f3f48c8'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a39c78233468f3f48cc'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387a7ac78233468f3f48d6'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'pio',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd2ebbdf3902c9fbe13'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd2ebbdf3902c9fbe17'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe1b'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe1f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe23'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe27'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd3ebbdf3902c9fbe2b'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd4ebbdf3902c9fbe2f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cd8ebbdf3902c9fbe33'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NCC',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978008700-package.json',
+      filePath: 'backend\\api\\uploads\\1714978008700-package.json'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387ceb5f10412bc6da3904'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978027653-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978027653-980283.jpg'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387cec5f10412bc6da3908'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    ttlLeaves: 2,
+    description: 'vxb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    attachment: {
+      fileName: '1714978028234-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978028234-980283.jpg'
+    },
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663888e7889342596f808e72'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-07T00:00:00.000Z,
+    ttlLeaves: 1,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c957c4e70ffa7476221c5'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    ttlLeaves: 4,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c95bd7ef5f2ade632bd1c'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    ttlLeaves: 4,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c95cdfb75eb6fc9d2b6ff'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+      email: 'rudra@gmail.com'
+    },
+    typeOfLeave: 'Medical',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    ttlLeaves: 4,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  }
+]
+[2024-05-16T14:04:22.336] [INFO] default - student leave list [
+  {
+    leave_id: new ObjectId('66387630c8b3d5c8b48406e9'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Approved',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387632c8b3d5c8b48406ed'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Rejected',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387634c8b3d5c8b48406f1'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387641c8b3d5c8b48406f5'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387642c8b3d5c8b48406f9'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387643c8b3d5c8b48406fd'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Vacation',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a21c78233468f3f48b8'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a2ac78233468f3f48be'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a34c78233468f3f48c4'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Sports',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a37c78233468f3f48c8'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a39c78233468f3f48cc'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387a7ac78233468f3f48d6'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-06T00:00:00.000Z,
+    dateTo: 2024-05-06T00:00:00.000Z,
+    description: 'pio',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd2ebbdf3902c9fbe13'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd2ebbdf3902c9fbe17'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe1b'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe1f'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe23'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe27'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd3ebbdf3902c9fbe2b'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd4ebbdf3902c9fbe2f'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('66387cd8ebbdf3902c9fbe33'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NCC',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978008700-package.json',
+      filePath: 'backend\\api\\uploads\\1714978008700-package.json'
+    }
+  },
+  {
+    leave_id: new ObjectId('66387ceb5f10412bc6da3904'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978027653-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978027653-980283.jpg'
+    }
+  },
+  {
+    leave_id: new ObjectId('66387cec5f10412bc6da3908'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 2,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-08T00:00:00.000Z,
+    description: 'vxb',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: {
+      fileName: '1714978028234-980283.jpg',
+      filePath: 'backend\\api\\uploads\\1714978028234-980283.jpg'
+    }
+  },
+  {
+    leave_id: new ObjectId('663888e7889342596f808e72'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 1,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-07T00:00:00.000Z,
+    description: 'poi',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c957c4e70ffa7476221c5'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 4,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    description: 'poi',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c95bd7ef5f2ade632bd1c'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 4,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    description: 'poi',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c95cdfb75eb6fc9d2b6ff'),
+    userFirstName: 'Rudra',
+    userLastName: 'Patel',
+    enrollno: 'SR21BSIT127',
+    typeOfLeave: 'Medical',
+    ttlLeaves: 4,
+    mentorFirstName: 'Nirali',
+    mentorLastName: 'Varu',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    description: 'poi',
+    leave: 35,
+    leaveOutof: 7,
+    attachment: undefined
+  }
+]
+[2024-05-16T14:04:26.171] [INFO] default - undefined
+[2024-05-16T14:04:26.184] [INFO] default - null
+[2024-05-16T14:04:26.185] [INFO] default - error with getting profile TypeError: Cannot read properties of null (reading 'mentor')
+    at userDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\user.js:255:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-05-16T14:04:26.188] [INFO] default - undefined
+[2024-05-16T14:04:26.200] [INFO] default - null
+[2024-05-16T14:04:26.201] [INFO] default - error with getting profile TypeError: Cannot read properties of null (reading 'mentor')
+    at userDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\user.js:255:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-05-16T14:07:11.562] [INFO] default - MongoDB Connected
+[2024-05-16T14:07:11.565] [INFO] default - Connected to DB
+[2024-05-16T14:07:19.123] [INFO] default - -------body {}
+[2024-05-16T14:07:19.124] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTU4NDg0NjF9.9XT2WWTOKk0xvs1ZSgLM2rmA522yJvbJjV8iuVlIeRg
+[2024-05-16T14:07:19.127] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715848461
+}
+[2024-05-16T14:07:19.128] [INFO] default - Student usertype
+[2024-05-16T14:07:19.128] [INFO] default - 6607bc70ad44afdad37b90d0
+[2024-05-16T14:07:19.151] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 35
+}
+[2024-05-16T14:07:19.164] [INFO] default - user profile {
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  email: 'rudra@gmail.com',
+  phoneNumber: '8200859181',
+  enrollno: 'SR21BSIT127',
+  mentorFirstName: 'Nirali',
+  mentorLastName: 'Varu',
+  department: 'CS',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  batch: 'TYCS-B'
+}
+[2024-05-16T14:07:19.168] [INFO] default - -------body {}
+[2024-05-16T14:07:19.168] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJSdWRyYSBQYXRlbCIsImVtYWlsIjoicnVkcmFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiYzcwYWQ0NGFmZGFkMzdiOTBkMCIsImF1dGhvcml0eSI6IlN0dWRlbnQiLCJpYXQiOjE3MTU4NDg0NjF9.9XT2WWTOKk0xvs1ZSgLM2rmA522yJvbJjV8iuVlIeRg
+[2024-05-16T14:07:19.170] [INFO] default - {
+  type: 'Student',
+  name: 'Rudra Patel',
+  email: 'rudra@gmail.com',
+  user_id: '6607bc70ad44afdad37b90d0',
+  authority: 'Student',
+  iat: 1715848461
+}
+[2024-05-16T14:07:19.170] [INFO] default - Student usertype
+[2024-05-16T14:07:19.170] [INFO] default - 6607bc70ad44afdad37b90d0
+[2024-05-16T14:07:19.186] [INFO] default - {
+  _id: new ObjectId('6607bc70ad44afdad37b90d0'),
+  type: 'Student',
+  email: 'rudra@gmail.com',
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  password: '$2a$12$vDCHmxUaKq.Ty1rANLTlx.LTafUsL2k0jMCb4Wk95MVTIaufl.G1a',
+  phoneNumber: '8200859181',
+  department: 'CS',
+  batch: [],
+  userId: 'rudra@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT127',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    firstName: 'Nirali',
+    lastName: 'Varu'
+  },
+  __v: 0,
+  leave: 35
+}
+[2024-05-16T14:07:19.199] [INFO] default - user profile {
+  firstName: 'Rudra',
+  lastName: 'Patel',
+  email: 'rudra@gmail.com',
+  phoneNumber: '8200859181',
+  enrollno: 'SR21BSIT127',
+  mentorFirstName: 'Nirali',
+  mentorLastName: 'Varu',
+  department: 'CS',
+  course: 'BSC',
+  division: 'B',
+  year: 'TY',
+  batch: 'TYCS-B'
+}
+[2024-05-16T14:07:24.841] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+} userresult--
+[2024-05-16T14:07:25.697] [INFO] default - -------body {}
+[2024-05-16T14:07:25.697] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:07:25.699] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:07:25.699] [INFO] default - Student usertype
+[2024-05-16T14:07:25.933] [INFO] default - student---- {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+}
+[2024-05-16T14:07:25.963] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:07:25.992] [INFO] default - ----studentresandleave [
+  {
+    _id: new ObjectId('663c8ff86207f43d59fe0fa9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    ttlLeaves: 20,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c90076207f43d59fe0fae'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    ttlLeaves: 20,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c90366207f43d59fe0fbc'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    ttlLeaves: 4,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('6641dcb8f6f2e84a671d17d1'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'Sports',
+    dateFrom: 2024-05-18T00:00:00.000Z,
+    dateTo: 2024-05-25T00:00:00.000Z,
+    ttlLeaves: 7,
+    description: 'kl',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  }
+]
+[2024-05-16T14:07:25.994] [INFO] default - student leave list [
+  {
+    leave_id: new ObjectId('663c8ff86207f43d59fe0fa9'),
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 20,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    description: 'poi',
+    leave: 47,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c90076207f43d59fe0fae'),
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 20,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    description: 'poi',
+    leave: 47,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('663c90366207f43d59fe0fbc'),
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'NSS',
+    ttlLeaves: 4,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-13T00:00:00.000Z,
+    description: 'poi',
+    leave: 47,
+    leaveOutof: 7,
+    attachment: undefined
+  },
+  {
+    leave_id: new ObjectId('6641dcb8f6f2e84a671d17d1'),
+    userFirstName: 'Vansh',
+    userLastName: 'Khalasi',
+    enrollno: 'SR21BSIT067',
+    typeOfLeave: 'Sports',
+    ttlLeaves: 7,
+    mentorFirstName: 'Jayesh',
+    mentorLastName: 'Pushtiwala',
+    leaveStatus: 'Pending',
+    dateFrom: 2024-05-18T00:00:00.000Z,
+    dateTo: 2024-05-25T00:00:00.000Z,
+    description: 'kl',
+    leave: 47,
+    leaveOutof: 7,
+    attachment: undefined
+  }
+]
+[2024-05-16T14:07:25.996] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:07:27.642] [INFO] default - -------body {}
+[2024-05-16T14:07:27.642] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:07:27.643] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:07:27.644] [INFO] default - Student usertype
+[2024-05-16T14:07:27.644] [INFO] default - 6607bc1aad44afdad37b90c8
+[2024-05-16T14:07:27.659] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+}
+[2024-05-16T14:07:27.674] [INFO] default - user profile {
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  email: 'vansh@gmail.com',
+  phoneNumber: '9078563412',
+  enrollno: 'SR21BSIT067',
+  mentorFirstName: 'Jayesh',
+  mentorLastName: 'Pushtiwala',
+  department: 'IT',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  batch: 'TYIT-A'
+}
+[2024-05-16T14:07:27.676] [INFO] default - -------body {}
+[2024-05-16T14:07:27.676] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:07:27.677] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:07:27.678] [INFO] default - Student usertype
+[2024-05-16T14:07:27.678] [INFO] default - 6607bc1aad44afdad37b90c8
+[2024-05-16T14:07:27.689] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+}
+[2024-05-16T14:07:27.702] [INFO] default - user profile {
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  email: 'vansh@gmail.com',
+  phoneNumber: '9078563412',
+  enrollno: 'SR21BSIT067',
+  mentorFirstName: 'Jayesh',
+  mentorLastName: 'Pushtiwala',
+  department: 'IT',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  batch: 'TYIT-A'
+}
+[2024-05-16T14:07:38.605] [ERROR] default - TypeError: Cannot read properties of null (reading 'mentor')
+    at applyLeave (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:92:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error while applying leave form
+[2024-05-16T14:07:59.197] [INFO] default - MongoDB Connected
+[2024-05-16T14:07:59.200] [INFO] default - Connected to DB
+[2024-05-16T14:08:04.344] [ERROR] default - TypeError: Cannot read properties of null (reading 'mentor')
+    at applyLeave (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:92:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error while applying leave form
+[2024-05-16T14:08:27.402] [INFO] default - MongoDB Connected
+[2024-05-16T14:08:27.406] [INFO] default - Connected to DB
+[2024-05-16T14:08:28.798] [INFO] default - null ----------------------------------------
+[2024-05-16T14:08:28.799] [ERROR] default - TypeError: Cannot read properties of null (reading 'mentor')
+    at applyLeave (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:93:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error while applying leave form
+[2024-05-16T14:08:50.384] [INFO] default - MongoDB Connected
+[2024-05-16T14:08:50.387] [INFO] default - Connected to DB
+[2024-05-16T14:09:05.056] [INFO] default - -------body {}
+[2024-05-16T14:09:05.056] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:09:05.058] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:09:05.059] [INFO] default - Student usertype
+[2024-05-16T14:09:05.324] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+} ----------------------------------------
+[2024-05-16T14:09:05.338] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:09:05.355] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:10:55.759] [INFO] default - -------body {}
+[2024-05-16T14:10:55.759] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:10:55.760] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:10:55.760] [INFO] default - Student usertype
+[2024-05-16T14:10:55.775] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+} ----------------------------------------
+[2024-05-16T14:10:55.788] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:10:55.816] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:11:01.130] [INFO] default - -------body {}
+[2024-05-16T14:11:01.130] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:11:01.131] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:11:01.131] [INFO] default - Student usertype
+[2024-05-16T14:11:01.131] [INFO] default - 6607bc1aad44afdad37b90c8
+[2024-05-16T14:11:01.143] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+}
+[2024-05-16T14:11:01.155] [INFO] default - user profile {
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  email: 'vansh@gmail.com',
+  phoneNumber: '9078563412',
+  enrollno: 'SR21BSIT067',
+  mentorFirstName: 'Jayesh',
+  mentorLastName: 'Pushtiwala',
+  department: 'IT',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  batch: 'TYIT-A'
+}
+[2024-05-16T14:11:01.160] [INFO] default - -------body {}
+[2024-05-16T14:11:01.161] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:11:01.162] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:11:01.163] [INFO] default - Student usertype
+[2024-05-16T14:11:01.163] [INFO] default - 6607bc1aad44afdad37b90c8
+[2024-05-16T14:11:01.176] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+}
+[2024-05-16T14:11:01.190] [INFO] default - user profile {
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  email: 'vansh@gmail.com',
+  phoneNumber: '9078563412',
+  enrollno: 'SR21BSIT067',
+  mentorFirstName: 'Jayesh',
+  mentorLastName: 'Pushtiwala',
+  department: 'IT',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  batch: 'TYIT-A'
+}
+[2024-05-16T14:11:12.734] [INFO] default - -------body {}
+[2024-05-16T14:11:12.734] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:11:12.735] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:11:12.735] [INFO] default - Student usertype
+[2024-05-16T14:11:12.750] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+} ----------------------------------------
+[2024-05-16T14:11:12.765] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 47
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:11:12.780] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:11:28.863] [INFO] default - -------body {}
+[2024-05-16T14:11:28.863] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:11:28.864] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:11:28.864] [INFO] default - Student usertype
+[2024-05-16T14:11:28.878] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 10
+} ----------------------------------------
+[2024-05-16T14:11:28.889] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 10
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:11:28.903] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:11:28.906] [INFO] default - attachments------ 
+[2024-05-16T14:11:28.906] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    email: 'vansh@gmail.com'
+  },
+  typeOfLeave: 'NSS',
+  dateFrom: 2024-05-16T00:00:00.000Z,
+  dateTo: 2024-05-18T00:00:00.000Z,
+  ttlLeaves: 3,
+  description: 'qwe',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('6645c6b8e6ff09fba8af43f6'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-16T14:11:29.010] [ERROR] default - ReferenceError: nodemailer is not defined
+    at applyLeave (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:170:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error while applying leave form
+[2024-05-16T14:11:31.487] [INFO] default - -------body {}
+[2024-05-16T14:11:31.487] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:11:31.488] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:11:31.488] [INFO] default - Student usertype
+[2024-05-16T14:11:31.503] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 13
+} ----------------------------------------
+[2024-05-16T14:11:31.517] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 13
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:11:31.530] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:11:31.532] [INFO] default - attachments------ 
+[2024-05-16T14:11:31.532] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    email: 'vansh@gmail.com'
+  },
+  typeOfLeave: 'NSS',
+  dateFrom: 2024-05-16T00:00:00.000Z,
+  dateTo: 2024-05-18T00:00:00.000Z,
+  ttlLeaves: 3,
+  description: 'qwe',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('6645c6bbe6ff09fba8af43fc'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-16T14:11:31.567] [ERROR] default - ReferenceError: nodemailer is not defined
+    at applyLeave (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:170:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error while applying leave form
+[2024-05-16T14:11:35.052] [INFO] default - -------body {}
+[2024-05-16T14:11:35.052] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:11:35.054] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:11:35.055] [INFO] default - Student usertype
+[2024-05-16T14:11:35.055] [INFO] default - 6607bc1aad44afdad37b90c8
+[2024-05-16T14:11:35.068] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 16
+}
+[2024-05-16T14:11:35.082] [INFO] default - user profile {
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  email: 'vansh@gmail.com',
+  phoneNumber: '9078563412',
+  enrollno: 'SR21BSIT067',
+  mentorFirstName: 'Jayesh',
+  mentorLastName: 'Pushtiwala',
+  department: 'IT',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  batch: 'TYIT-A'
+}
+[2024-05-16T14:11:35.084] [INFO] default - -------body {}
+[2024-05-16T14:11:35.085] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:11:35.086] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:11:35.087] [INFO] default - Student usertype
+[2024-05-16T14:11:35.087] [INFO] default - 6607bc1aad44afdad37b90c8
+[2024-05-16T14:11:35.100] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 16
+}
+[2024-05-16T14:11:35.113] [INFO] default - user profile {
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  email: 'vansh@gmail.com',
+  phoneNumber: '9078563412',
+  enrollno: 'SR21BSIT067',
+  mentorFirstName: 'Jayesh',
+  mentorLastName: 'Pushtiwala',
+  department: 'IT',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  batch: 'TYIT-A'
+}
+[2024-05-16T14:11:53.455] [INFO] default - -------body {}
+[2024-05-16T14:11:53.455] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:11:53.456] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:11:53.456] [INFO] default - Student usertype
+[2024-05-16T14:11:53.470] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 16
+} ----------------------------------------
+[2024-05-16T14:11:53.484] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 16
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:11:53.497] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:11:53.499] [INFO] default - attachments------ 
+[2024-05-16T14:11:53.500] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    email: 'vansh@gmail.com'
+  },
+  typeOfLeave: 'NSS',
+  dateFrom: 2024-05-16T00:00:00.000Z,
+  dateTo: 2024-05-18T00:00:00.000Z,
+  ttlLeaves: 3,
+  description: 'qwe',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('6645c6d1e6ff09fba8af4406'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-16T14:11:53.535] [ERROR] default - ReferenceError: nodemailer is not defined
+    at applyLeave (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:170:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error while applying leave form
+[2024-05-16T14:12:15.056] [INFO] default - MongoDB Connected
+[2024-05-16T14:12:15.060] [INFO] default - Connected to DB
+[2024-05-16T14:12:17.611] [INFO] default - -------body {}
+[2024-05-16T14:12:17.611] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:12:17.613] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:12:17.614] [INFO] default - Student usertype
+[2024-05-16T14:12:17.641] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 19
+} ----------------------------------------
+[2024-05-16T14:12:17.654] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 19
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:12:17.669] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:12:17.675] [INFO] default - attachments------ 
+[2024-05-16T14:12:17.675] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    email: 'vansh@gmail.com'
+  },
+  typeOfLeave: 'NSS',
+  dateFrom: 2024-05-16T00:00:00.000Z,
+  dateTo: 2024-05-18T00:00:00.000Z,
+  ttlLeaves: 3,
+  description: 'qwe',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('6645c6e9d98ca58f604b2d6f'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-16T14:12:19.421] [ERROR] default - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (D:\edu\StudentLeaveManagement\backend\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection.login (D:\edu\StudentLeaveManagement\backend\node_modules\nodemailer\lib\smtp-connection\index.js:452:38)
+    at D:\edu\StudentLeaveManagement\backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (D:\edu\StudentLeaveManagement\backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._actionEHLO (D:\edu\StudentLeaveManagement\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1360:14)
+    at SMTPConnection._processResponse (D:\edu\StudentLeaveManagement\backend\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (D:\edu\StudentLeaveManagement\backend\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at SMTPConnection._onSocketData (D:\edu\StudentLeaveManagement\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44) {
+  code: 'EAUTH',
+  command: 'API'
+} Error while applying leave form
+[2024-05-16T14:13:36.355] [INFO] default - MongoDB Connected
+[2024-05-16T14:13:36.357] [INFO] default - Connected to DB
+[2024-05-16T14:13:44.043] [INFO] default - MongoDB Connected
+[2024-05-16T14:13:44.045] [INFO] default - Connected to DB
+[2024-05-16T14:13:48.039] [INFO] default - -------body {}
+[2024-05-16T14:13:48.040] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2YW5zaEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0ODY0NX0.4X2y4RJ5B58NHAPrF8-Mmy8CmLkgcGoFki7_PrxVyGE
+[2024-05-16T14:13:48.042] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vansh@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715848645
+}
+[2024-05-16T14:13:48.043] [INFO] default - Student usertype
+[2024-05-16T14:13:48.069] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 22
+} ----------------------------------------
+[2024-05-16T14:13:48.085] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 22
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:13:48.102] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:13:48.108] [INFO] default - attachments------ 
+[2024-05-16T14:13:48.108] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    email: 'vansh@gmail.com'
+  },
+  typeOfLeave: 'NSS',
+  dateFrom: 2024-05-16T00:00:00.000Z,
+  dateTo: 2024-05-18T00:00:00.000Z,
+  ttlLeaves: 3,
+  description: 'qwe',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('6645c744378968e0d8185c95'),
+  coOrdinatorHandledBy: 'Pending'
+}
+[2024-05-16T14:13:52.053] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 22
+} <acddf9a2-1387-0128-ce4a-867e6d4da226@gmail.com>
+[2024-05-16T14:13:52.054] [INFO] default - leave form applied {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    email: 'vansh@gmail.com'
+  },
+  typeOfLeave: 'NSS',
+  dateFrom: 2024-05-16T00:00:00.000Z,
+  dateTo: 2024-05-18T00:00:00.000Z,
+  ttlLeaves: 3,
+  description: 'qwe',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('6645c744378968e0d8185c95'),
+  coOrdinatorHandledBy: 'Pending',
+  __v: 0
+} {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vansh@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 25
+}
+[2024-05-16T14:16:56.632] [INFO] default - MongoDB Connected
+[2024-05-16T14:16:56.635] [INFO] default - Connected to DB
+[2024-05-16T14:17:32.862] [INFO] default - MongoDB Connected
+[2024-05-16T14:17:32.864] [INFO] default - Connected to DB
+[2024-05-16T14:18:40.891] [INFO] default - MongoDB Connected
+[2024-05-16T14:18:40.893] [INFO] default - Connected to DB
+[2024-05-16T14:21:47.475] [INFO] default - MongoDB Connected
+[2024-05-16T14:21:47.477] [INFO] default - Connected to DB
+[2024-05-16T14:22:04.705] [INFO] default - MongoDB Connected
+[2024-05-16T14:22:04.707] [INFO] default - Connected to DB
+[2024-05-16T14:22:21.659] [INFO] default - MongoDB Connected
+[2024-05-16T14:22:21.662] [INFO] default - Connected to DB
+[2024-05-16T14:23:02.278] [INFO] default - {
+  _id: new ObjectId('6607b1b849fa5ae3c4e04abd'),
+  type: 'Moderator',
+  email: 'CS01@gmail.com',
+  firstName: 'Shruti',
+  lastName: 'Revdiwala',
+  password: '$2a$12$I45wAENoRJ7uyvY0TLP/0eJWCvhc3LXhqakooNZeIlShi34GVfQZC',
+  phoneNumber: '1234567891',
+  department: 'IT',
+  batch: [ 'a1' ],
+  userId: 'CS01',
+  authority: 'Mentor',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  enrollno: 'CS01',
+  __v: 0,
+  leave: 6
+} userresult--
+[2024-05-16T14:23:03.111] [INFO] default - -------body {}
+[2024-05-16T14:23:03.111] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IlNocnV0aSBSZXZkaXdhbGEiLCJlbWFpbCI6IkNTMDFAZ21haWwuY29tIiwidXNlcl9pZCI6IjY2MDdiMWI4NDlmYTVhZTNjNGUwNGFiZCIsImF1dGhvcml0eSI6Ik1lbnRvciIsImlhdCI6MTcxNTg0OTU4Mn0.HEdDiqBSUf1rxtbohir9G7c2yyx2uTGeUbR75wMvY_0
+[2024-05-16T14:23:03.114] [INFO] default - {
+  type: 'Moderator',
+  name: 'Shruti Revdiwala',
+  email: 'CS01@gmail.com',
+  user_id: '6607b1b849fa5ae3c4e04abd',
+  authority: 'Mentor',
+  iat: 1715849582
+}
+[2024-05-16T14:23:03.115] [INFO] default - Moderator usertype
+[2024-05-16T14:23:03.131] [INFO] default - {
+  _id: new ObjectId('6607b1b849fa5ae3c4e04abd'),
+  type: 'Moderator',
+  email: 'CS01@gmail.com',
+  firstName: 'Shruti',
+  lastName: 'Revdiwala',
+  password: '$2a$12$I45wAENoRJ7uyvY0TLP/0eJWCvhc3LXhqakooNZeIlShi34GVfQZC',
+  phoneNumber: '1234567891',
+  department: 'IT',
+  batch: [ 'a1' ],
+  userId: 'CS01',
+  authority: 'Mentor',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  enrollno: 'CS01',
+  __v: 0,
+  leave: 6
+} --moderatorResult
+[2024-05-16T14:23:03.134] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:23:03.143] [INFO] default - student []
+[2024-05-16T14:23:03.144] [INFO] default - -------- 0
+[2024-05-16T14:23:03.144] [INFO] default - [] leaves of mentor-to-student
+[2024-05-16T14:23:03.165] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:23:39.070] [INFO] default - {
+  _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+  type: 'Moderator',
+  email: 'vansh1501khalasi@gmail.com',
+  firstName: 'Jayesh',
+  lastName: 'Pushtiwala',
+  password: '$2a$12$oz3ddzufpe4QGD7iBYg0YOz.o3dxQpCy.p.kvjWxhlM.w3QKOYMuq',
+  phoneNumber: '3366998855',
+  department: 'it',
+  batch: [ 'a1' ],
+  userId: 'BSCIT01',
+  authority: 'H.O.D',
+  mentor: {
+    _id: new ObjectId('6607b10549fa5ae3c4e04ab1'),
+    firstName: 'Chaulami',
+    lastName: 'Desai'
+  },
+  enrollno: 'BSCIT01',
+  __v: 0,
+  leave: 0
+} userresult--
+[2024-05-16T14:23:46.106] [INFO] default - {
+  _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+  type: 'Moderator',
+  email: 'vansh1501khalasi@gmail.com',
+  firstName: 'Jayesh',
+  lastName: 'Pushtiwala',
+  password: '$2a$12$oz3ddzufpe4QGD7iBYg0YOz.o3dxQpCy.p.kvjWxhlM.w3QKOYMuq',
+  phoneNumber: '3366998855',
+  department: 'it',
+  batch: [ 'a1' ],
+  userId: 'BSCIT01',
+  authority: 'H.O.D',
+  mentor: {
+    _id: new ObjectId('6607b10549fa5ae3c4e04ab1'),
+    firstName: 'Chaulami',
+    lastName: 'Desai'
+  },
+  enrollno: 'BSCIT01',
+  __v: 0,
+  leave: 0
+} userresult--
+[2024-05-16T14:23:46.940] [INFO] default - -------body {}
+[2024-05-16T14:23:46.940] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTYyNn0.Y1lgnJyzkH6Zaj92kVsKE9nOvTyTX-UAZu2jZiUye8A
+[2024-05-16T14:23:46.941] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849626
+}
+[2024-05-16T14:23:46.942] [INFO] default - Moderator usertype
+[2024-05-16T14:23:46.956] [INFO] default - {
+  _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+  type: 'Moderator',
+  email: 'vansh1501khalasi@gmail.com',
+  firstName: 'Jayesh',
+  lastName: 'Pushtiwala',
+  password: '$2a$12$oz3ddzufpe4QGD7iBYg0YOz.o3dxQpCy.p.kvjWxhlM.w3QKOYMuq',
+  phoneNumber: '3366998855',
+  department: 'it',
+  batch: [ 'a1' ],
+  userId: 'BSCIT01',
+  authority: 'H.O.D',
+  mentor: {
+    _id: new ObjectId('6607b10549fa5ae3c4e04ab1'),
+    firstName: 'Chaulami',
+    lastName: 'Desai'
+  },
+  enrollno: 'BSCIT01',
+  __v: 0,
+  leave: 0
+} --moderatorResult
+[2024-05-16T14:23:46.969] [INFO] default - student [
+  {
+    _id: new ObjectId('6607b1b849fa5ae3c4e04abd'),
+    type: 'Moderator',
+    email: 'CS01@gmail.com',
+    firstName: 'Shruti',
+    lastName: 'Revdiwala',
+    password: '$2a$12$I45wAENoRJ7uyvY0TLP/0eJWCvhc3LXhqakooNZeIlShi34GVfQZC',
+    phoneNumber: '1234567891',
+    department: 'IT',
+    batch: [ 'a1' ],
+    userId: 'CS01',
+    authority: 'Mentor',
+    mentor: {
+      _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+      firstName: 'Jayesh',
+      lastName: 'Pushtiwala'
+    },
+    enrollno: 'CS01',
+    __v: 0,
+    leave: 6
+  },
+  {
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    type: 'Student',
+    email: 'vkhalasi343@gmail.com',
+    firstName: 'Vansh',
+    lastName: 'Khalasi',
+    password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+    phoneNumber: '9078563412',
+    department: 'IT',
+    batch: [],
+    userId: 'vansh@gmail.com',
+    authority: 'Student',
+    enrollno: 'SR21BSIT067',
+    course: 'MSC',
+    division: 'A',
+    year: 'TY',
+    mentor: {
+      _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+      firstName: 'Jayesh',
+      lastName: 'Pushtiwala'
+    },
+    __v: 0,
+    leave: 25
+  },
+  {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    type: 'Moderator',
+    email: 'nirali@gmail.com',
+    firstName: 'Nirali',
+    lastName: 'Varu',
+    password: '$2a$12$tLkGkz2GRGfWCc4rEnI4G.yBNKaB8LM3Bj7yUpEQjO02qoNWUP4Pu',
+    phoneNumber: '89898541274',
+    department: 'it',
+    batch: [ 'a1' ],
+    userId: 'NV01',
+    authority: 'Mentor',
+    mentor: {
+      _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+      firstName: 'Jayesh',
+      lastName: 'Pushtiwala'
+    },
+    enrollno: 'NV01',
+    __v: 0,
+    leave: 0
+  }
+]
+[2024-05-16T14:23:46.984] [INFO] default - [
+  {
+    _id: new ObjectId('66387e6d5f10412bc6da3921'),
+    userInfo: {
+      type: 'Moderator',
+      _id: new ObjectId('6607b1b849fa5ae3c4e04abd'),
+      email: 'CS01@gmail.com'
+    },
+    typeOfLeave: 'Sick Leave',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-09T00:00:00.000Z,
+    ttlLeaves: 3,
+    description: 'vxcb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66387e7f5f10412bc6da3925'),
+    userInfo: {
+      type: 'Moderator',
+      _id: new ObjectId('6607b1b849fa5ae3c4e04abd'),
+      email: 'CS01@gmail.com'
+    },
+    typeOfLeave: 'Sick Leave',
+    dateFrom: 2024-05-07T00:00:00.000Z,
+    dateTo: 2024-05-09T00:00:00.000Z,
+    ttlLeaves: 3,
+    description: 'vxcb',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  }
+] leavedetails
+[2024-05-16T14:23:46.985] [ERROR] default - leave list err ReferenceError: mentorResult is not defined
+    at D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:355:20
+    at Array.forEach (<anonymous>)
+    at D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:341:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async studentToMentorLeaveDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:334:5)
+[2024-05-16T14:23:46.989] [INFO] default - [
+  {
+    _id: new ObjectId('663c8ff86207f43d59fe0fa9'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    ttlLeaves: 20,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c90076207f43d59fe0fae'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-09T00:00:00.000Z,
+    dateTo: 2024-05-31T00:00:00.000Z,
+    ttlLeaves: 20,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('6641dcb8f6f2e84a671d17d1'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'Sports',
+    dateFrom: 2024-05-18T00:00:00.000Z,
+    dateTo: 2024-05-25T00:00:00.000Z,
+    ttlLeaves: 7,
+    description: 'kl',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('6645c6b8e6ff09fba8af43f6'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-16T00:00:00.000Z,
+    dateTo: 2024-05-18T00:00:00.000Z,
+    ttlLeaves: 3,
+    description: 'qwe',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('6645c6bbe6ff09fba8af43fc'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-16T00:00:00.000Z,
+    dateTo: 2024-05-18T00:00:00.000Z,
+    ttlLeaves: 3,
+    description: 'qwe',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('6645c6d1e6ff09fba8af4406'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-16T00:00:00.000Z,
+    dateTo: 2024-05-18T00:00:00.000Z,
+    ttlLeaves: 3,
+    description: 'qwe',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('6645c6e9d98ca58f604b2d6f'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-16T00:00:00.000Z,
+    dateTo: 2024-05-18T00:00:00.000Z,
+    ttlLeaves: 3,
+    description: 'qwe',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('6645c744378968e0d8185c95'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vansh@gmail.com'
+    },
+    typeOfLeave: 'NSS',
+    dateFrom: 2024-05-16T00:00:00.000Z,
+    dateTo: 2024-05-18T00:00:00.000Z,
+    ttlLeaves: 3,
+    description: 'qwe',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    coOrdinatorHandledBy: 'Pending',
+    __v: 0
+  }
+] leavedetails
+[2024-05-16T14:23:47.471] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:23:47.621] [INFO] default - [] leavedetails
+[2024-05-16T14:23:47.737] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:23:57.060] [INFO] default - -------body {}
+[2024-05-16T14:23:57.061] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTYyNn0.Y1lgnJyzkH6Zaj92kVsKE9nOvTyTX-UAZu2jZiUye8A
+[2024-05-16T14:23:57.061] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849626
+}
+[2024-05-16T14:23:57.062] [INFO] default - Moderator usertype
+[2024-05-16T14:23:57.269] [INFO] default - -------body {}
+[2024-05-16T14:23:57.269] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTYyNn0.Y1lgnJyzkH6Zaj92kVsKE9nOvTyTX-UAZu2jZiUye8A
+[2024-05-16T14:23:57.270] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849626
+}
+[2024-05-16T14:23:57.270] [INFO] default - Moderator usertype
+[2024-05-16T14:24:01.304] [INFO] default - -------body {}
+[2024-05-16T14:24:01.304] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTYyNn0.Y1lgnJyzkH6Zaj92kVsKE9nOvTyTX-UAZu2jZiUye8A
+[2024-05-16T14:24:01.305] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849626
+}
+[2024-05-16T14:24:01.305] [INFO] default - Moderator usertype
+[2024-05-16T14:24:20.807] [INFO] default - -------body { leave_id: '663c8ff86207f43d59fe0fa9', approve: true }
+[2024-05-16T14:24:20.807] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTYyNn0.Y1lgnJyzkH6Zaj92kVsKE9nOvTyTX-UAZu2jZiUye8A
+[2024-05-16T14:24:20.808] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849626
+}
+[2024-05-16T14:24:20.808] [INFO] default - Moderator usertype
+[2024-05-16T14:24:20.845] [INFO] default - ----- leveuser {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 25
+}
+[2024-05-16T14:24:20.846] [INFO] default - coordinator update leave error 
+[2024-05-16T14:25:14.344] [INFO] default - -------body { leave_id: '663c8ff86207f43d59fe0fa9', approve: true }
+[2024-05-16T14:25:14.344] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTYyNn0.Y1lgnJyzkH6Zaj92kVsKE9nOvTyTX-UAZu2jZiUye8A
+[2024-05-16T14:25:14.346] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849626
+}
+[2024-05-16T14:25:14.346] [INFO] default - Moderator usertype
+[2024-05-16T14:25:14.386] [INFO] default - ----- leveuser {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 25
+}
+[2024-05-16T14:25:14.386] [INFO] default - coordinator update leave error 
+[2024-05-16T14:25:15.514] [INFO] default - -------body { leave_id: '663c8ff86207f43d59fe0fa9', approve: true }
+[2024-05-16T14:25:15.514] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTYyNn0.Y1lgnJyzkH6Zaj92kVsKE9nOvTyTX-UAZu2jZiUye8A
+[2024-05-16T14:25:15.515] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849626
+}
+[2024-05-16T14:25:15.515] [INFO] default - Moderator usertype
+[2024-05-16T14:25:15.552] [INFO] default - ----- leveuser {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 25
+}
+[2024-05-16T14:25:15.552] [INFO] default - coordinator update leave error 
+[2024-05-16T14:26:01.343] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 0
+} userresult--
+[2024-05-16T14:26:02.187] [INFO] default - -------body {}
+[2024-05-16T14:26:02.188] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2a2hhbGFzaTM0M0BnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0OTc2MX0.OFmYu53h42pd8iEo_53klumkU6RZiNIIZA4dGsfY_hM
+[2024-05-16T14:26:02.189] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vkhalasi343@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715849761
+}
+[2024-05-16T14:26:02.189] [INFO] default - Student usertype
+[2024-05-16T14:26:02.200] [INFO] default - student---- {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 0
+}
+[2024-05-16T14:26:02.206] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:26:02.231] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:26:02.247] [INFO] default - ----studentresandleave []
+[2024-05-16T14:26:02.247] [INFO] default - student leave list []
+[2024-05-16T14:26:04.730] [INFO] default - -------body {}
+[2024-05-16T14:26:04.731] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2a2hhbGFzaTM0M0BnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0OTc2MX0.OFmYu53h42pd8iEo_53klumkU6RZiNIIZA4dGsfY_hM
+[2024-05-16T14:26:04.733] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vkhalasi343@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715849761
+}
+[2024-05-16T14:26:04.733] [INFO] default - Student usertype
+[2024-05-16T14:26:04.734] [INFO] default - 6607bc1aad44afdad37b90c8
+[2024-05-16T14:26:04.747] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 0
+}
+[2024-05-16T14:26:04.760] [INFO] default - user profile {
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  email: 'vkhalasi343@gmail.com',
+  phoneNumber: '9078563412',
+  enrollno: 'SR21BSIT067',
+  mentorFirstName: 'Jayesh',
+  mentorLastName: 'Pushtiwala',
+  department: 'IT',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  batch: 'TYIT-A'
+}
+[2024-05-16T14:26:04.762] [INFO] default - -------body {}
+[2024-05-16T14:26:04.762] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2a2hhbGFzaTM0M0BnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0OTc2MX0.OFmYu53h42pd8iEo_53klumkU6RZiNIIZA4dGsfY_hM
+[2024-05-16T14:26:04.763] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vkhalasi343@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715849761
+}
+[2024-05-16T14:26:04.763] [INFO] default - Student usertype
+[2024-05-16T14:26:04.763] [INFO] default - 6607bc1aad44afdad37b90c8
+[2024-05-16T14:26:04.776] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 0
+}
+[2024-05-16T14:26:04.790] [INFO] default - user profile {
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  email: 'vkhalasi343@gmail.com',
+  phoneNumber: '9078563412',
+  enrollno: 'SR21BSIT067',
+  mentorFirstName: 'Jayesh',
+  mentorLastName: 'Pushtiwala',
+  department: 'IT',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  batch: 'TYIT-A'
+}
+[2024-05-16T14:26:15.373] [INFO] default - -------body {}
+[2024-05-16T14:26:15.374] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiU3R1ZGVudCIsIm5hbWUiOiJWYW5zaCBLaGFsYXNpIiwiZW1haWwiOiJ2a2hhbGFzaTM0M0BnbWFpbC5jb20iLCJ1c2VyX2lkIjoiNjYwN2JjMWFhZDQ0YWZkYWQzN2I5MGM4IiwiYXV0aG9yaXR5IjoiU3R1ZGVudCIsImlhdCI6MTcxNTg0OTc2MX0.OFmYu53h42pd8iEo_53klumkU6RZiNIIZA4dGsfY_hM
+[2024-05-16T14:26:15.375] [INFO] default - {
+  type: 'Student',
+  name: 'Vansh Khalasi',
+  email: 'vkhalasi343@gmail.com',
+  user_id: '6607bc1aad44afdad37b90c8',
+  authority: 'Student',
+  iat: 1715849761
+}
+[2024-05-16T14:26:15.375] [INFO] default - Student usertype
+[2024-05-16T14:26:15.392] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 0
+} ----------------------------------------
+[2024-05-16T14:26:15.406] [INFO] default - leaveDetails controller {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 0
+} 6607bc1aad44afdad37b90c8
+[2024-05-16T14:26:15.420] [INFO] default - [
+  {
+    _id: new ObjectId('662f7ae52a30057a7fe27742'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('662f7ae92a30057a7fe27744'),
+    typeOfLeave: 'Public Holiday',
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty' ],
+    leaveName: '123',
+    leaveDate: 2024-04-29T00:00:00.000Z,
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388145c6da90facc35b5d1'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('66388149c6da90facc35b5d3'),
+    numberOfLeave: 1,
+    authority: [ 'H.O.D', 'Faculty', 'Co-Ordinator', 'Mentor' ],
+    leaveName: 'holi',
+    leaveDate: 2024-05-22T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663c9430f83788f9c767f4ba'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'holidayfreee',
+    leaveDate: 2024-05-10T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f3e3cd82b4cb22b35f335'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali',
+    leaveDate: 2024-05-14T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  },
+  {
+    _id: new ObjectId('663f41e6351efe7e46c801db'),
+    numberOfLeave: 1,
+    authority: [],
+    leaveName: 'diwali2',
+    leaveDate: 2024-05-15T00:00:00.000Z,
+    typeOfLeave: 'Public Holiday',
+    __v: 0
+  }
+] array of dates
+[2024-05-16T14:26:15.424] [INFO] default - attachments------ 
+[2024-05-16T14:26:15.424] [INFO] default - leave details {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    email: 'vkhalasi343@gmail.com'
+  },
+  typeOfLeave: 'Sick Leave',
+  dateFrom: 2024-05-16T00:00:00.000Z,
+  dateTo: 2024-05-18T00:00:00.000Z,
+  ttlLeaves: 3,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('6645ca2f1d8e38910415a39e')
+}
+[2024-05-16T14:26:18.369] [INFO] default - {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 0
+} <1123b159-18c4-87a1-e000-aec970faeae7@gmail.com>
+[2024-05-16T14:26:18.369] [INFO] default - leave form applied {
+  userInfo: {
+    type: 'Student',
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    email: 'vkhalasi343@gmail.com'
+  },
+  typeOfLeave: 'Sick Leave',
+  dateFrom: 2024-05-16T00:00:00.000Z,
+  dateTo: 2024-05-18T00:00:00.000Z,
+  ttlLeaves: 3,
+  description: 'poi',
+  handledBy: 'Pending',
+  coOrdinatorStatus: 'Pending',
+  status: 'Pending',
+  _id: new ObjectId('6645ca2f1d8e38910415a39e'),
+  __v: 0
+} {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 3
+}
+[2024-05-16T14:26:31.527] [INFO] default - {
+  _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+  type: 'Moderator',
+  email: 'vansh1501khalasi@gmail.com',
+  firstName: 'Jayesh',
+  lastName: 'Pushtiwala',
+  password: '$2a$12$oz3ddzufpe4QGD7iBYg0YOz.o3dxQpCy.p.kvjWxhlM.w3QKOYMuq',
+  phoneNumber: '3366998855',
+  department: 'it',
+  batch: [ 'a1' ],
+  userId: 'BSCIT01',
+  authority: 'H.O.D',
+  mentor: {
+    _id: new ObjectId('6607b10549fa5ae3c4e04ab1'),
+    firstName: 'Chaulami',
+    lastName: 'Desai'
+  },
+  enrollno: 'BSCIT01',
+  __v: 0,
+  leave: 0
+} userresult--
+[2024-05-16T14:26:32.371] [INFO] default - -------body {}
+[2024-05-16T14:26:32.371] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTc5MX0.f3wyTTDN8xLFFkqheCrrh6214XFGAdf1NEpb-94IfC8
+[2024-05-16T14:26:32.372] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849791
+}
+[2024-05-16T14:26:32.372] [INFO] default - Moderator usertype
+[2024-05-16T14:26:32.383] [INFO] default - {
+  _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+  type: 'Moderator',
+  email: 'vansh1501khalasi@gmail.com',
+  firstName: 'Jayesh',
+  lastName: 'Pushtiwala',
+  password: '$2a$12$oz3ddzufpe4QGD7iBYg0YOz.o3dxQpCy.p.kvjWxhlM.w3QKOYMuq',
+  phoneNumber: '3366998855',
+  department: 'it',
+  batch: [ 'a1' ],
+  userId: 'BSCIT01',
+  authority: 'H.O.D',
+  mentor: {
+    _id: new ObjectId('6607b10549fa5ae3c4e04ab1'),
+    firstName: 'Chaulami',
+    lastName: 'Desai'
+  },
+  enrollno: 'BSCIT01',
+  __v: 0,
+  leave: 0
+} --moderatorResult
+[2024-05-16T14:26:32.395] [INFO] default - student [
+  {
+    _id: new ObjectId('6607b1b849fa5ae3c4e04abd'),
+    type: 'Moderator',
+    email: 'CS01@gmail.com',
+    firstName: 'Shruti',
+    lastName: 'Revdiwala',
+    password: '$2a$12$I45wAENoRJ7uyvY0TLP/0eJWCvhc3LXhqakooNZeIlShi34GVfQZC',
+    phoneNumber: '1234567891',
+    department: 'IT',
+    batch: [ 'a1' ],
+    userId: 'CS01',
+    authority: 'Mentor',
+    mentor: {
+      _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+      firstName: 'Jayesh',
+      lastName: 'Pushtiwala'
+    },
+    enrollno: 'CS01',
+    __v: 0,
+    leave: 6
+  },
+  {
+    _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+    type: 'Student',
+    email: 'vkhalasi343@gmail.com',
+    firstName: 'Vansh',
+    lastName: 'Khalasi',
+    password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+    phoneNumber: '9078563412',
+    department: 'IT',
+    batch: [],
+    userId: 'vansh@gmail.com',
+    authority: 'Student',
+    enrollno: 'SR21BSIT067',
+    course: 'MSC',
+    division: 'A',
+    year: 'TY',
+    mentor: {
+      _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+      firstName: 'Jayesh',
+      lastName: 'Pushtiwala'
+    },
+    __v: 0,
+    leave: 3
+  },
+  {
+    _id: new ObjectId('663480ab55ac7e0210c2bcd1'),
+    type: 'Moderator',
+    email: 'nirali@gmail.com',
+    firstName: 'Nirali',
+    lastName: 'Varu',
+    password: '$2a$12$tLkGkz2GRGfWCc4rEnI4G.yBNKaB8LM3Bj7yUpEQjO02qoNWUP4Pu',
+    phoneNumber: '89898541274',
+    department: 'it',
+    batch: [ 'a1' ],
+    userId: 'NV01',
+    authority: 'Mentor',
+    mentor: {
+      _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+      firstName: 'Jayesh',
+      lastName: 'Pushtiwala'
+    },
+    enrollno: 'NV01',
+    __v: 0,
+    leave: 0
+  }
+]
+[2024-05-16T14:26:32.397] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:26:32.407] [INFO] default - [] leavedetails
+[2024-05-16T14:26:32.407] [INFO] default - [] leavedetails
+[2024-05-16T14:26:32.408] [INFO] default - [
+  {
+    _id: new ObjectId('6645ca2f1d8e38910415a39e'),
+    userInfo: {
+      type: 'Student',
+      _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+      email: 'vkhalasi343@gmail.com'
+    },
+    typeOfLeave: 'Sick Leave',
+    dateFrom: 2024-05-16T00:00:00.000Z,
+    dateTo: 2024-05-18T00:00:00.000Z,
+    ttlLeaves: 3,
+    description: 'poi',
+    handledBy: 'Pending',
+    coOrdinatorStatus: 'Pending',
+    status: 'Pending',
+    __v: 0
+  }
+] leavedetails
+[2024-05-16T14:26:32.408] [ERROR] default - leave list err ReferenceError: mentorResult is not defined
+    at D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:355:20
+    at Array.forEach (<anonymous>)
+    at D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:341:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 1)
+    at async studentToMentorLeaveDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:334:5)
+[2024-05-16T14:26:32.424] [INFO] default - [
+  { name: 'Sick', days: 12 },
+  { name: 'Medical', days: 45 },
+  { name: 'NCC', days: 45 },
+  { name: 'NSS', days: 45 },
+  { name: 'Casual', days: 7 },
+  { name: 'emergency', days: 10 }
+] [
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z },
+  { name: 'holi', days: 1, date: 2024-05-22T00:00:00.000Z }
+] adada
+[2024-05-16T14:26:34.082] [INFO] default - -------body {}
+[2024-05-16T14:26:34.082] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTc5MX0.f3wyTTDN8xLFFkqheCrrh6214XFGAdf1NEpb-94IfC8
+[2024-05-16T14:26:34.083] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849791
+}
+[2024-05-16T14:26:34.083] [INFO] default - Moderator usertype
+[2024-05-16T14:26:34.149] [INFO] default - -------body {}
+[2024-05-16T14:26:34.150] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTc5MX0.f3wyTTDN8xLFFkqheCrrh6214XFGAdf1NEpb-94IfC8
+[2024-05-16T14:26:34.151] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849791
+}
+[2024-05-16T14:26:34.151] [INFO] default - Moderator usertype
+[2024-05-16T14:26:35.916] [INFO] default - -------body { leave_id: '6645ca2f1d8e38910415a39e', approve: true }
+[2024-05-16T14:26:35.916] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTc5MX0.f3wyTTDN8xLFFkqheCrrh6214XFGAdf1NEpb-94IfC8
+[2024-05-16T14:26:35.917] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849791
+}
+[2024-05-16T14:26:35.917] [INFO] default - Moderator usertype
+[2024-05-16T14:26:35.956] [INFO] default - ----- leveuser {
+  _id: new ObjectId('6607bc1aad44afdad37b90c8'),
+  type: 'Student',
+  email: 'vkhalasi343@gmail.com',
+  firstName: 'Vansh',
+  lastName: 'Khalasi',
+  password: '$2a$12$R8DKQdpkQnPrcEOS2Q1qY.GeVutyzkWixmP2whQ.rYIx9gZtwssr2',
+  phoneNumber: '9078563412',
+  department: 'IT',
+  batch: [],
+  userId: 'vansh@gmail.com',
+  authority: 'Student',
+  enrollno: 'SR21BSIT067',
+  course: 'MSC',
+  division: 'A',
+  year: 'TY',
+  mentor: {
+    _id: new ObjectId('6607b16d49fa5ae3c4e04ab7'),
+    firstName: 'Jayesh',
+    lastName: 'Pushtiwala'
+  },
+  __v: 0,
+  leave: 3
+}
+[2024-05-16T14:26:38.758] [INFO] default - -------body {}
+[2024-05-16T14:26:38.758] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTc5MX0.f3wyTTDN8xLFFkqheCrrh6214XFGAdf1NEpb-94IfC8
+[2024-05-16T14:26:38.760] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849791
+}
+[2024-05-16T14:26:38.761] [INFO] default - Moderator usertype
+[2024-05-16T14:26:38.827] [INFO] default - -------body {}
+[2024-05-16T14:26:38.828] [INFO] default - headers Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiTW9kZXJhdG9yIiwibmFtZSI6IkpheWVzaCBQdXNodGl3YWxhIiwiZW1haWwiOiJ2YW5zaDE1MDFraGFsYXNpQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NjA3YjE2ZDQ5ZmE1YWUzYzRlMDRhYjciLCJhdXRob3JpdHkiOiJILk8uRCIsImlhdCI6MTcxNTg0OTc5MX0.f3wyTTDN8xLFFkqheCrrh6214XFGAdf1NEpb-94IfC8
+[2024-05-16T14:26:38.829] [INFO] default - {
+  type: 'Moderator',
+  name: 'Jayesh Pushtiwala',
+  email: 'vansh1501khalasi@gmail.com',
+  user_id: '6607b16d49fa5ae3c4e04ab7',
+  authority: 'H.O.D',
+  iat: 1715849791
+}
+[2024-05-16T14:26:38.829] [INFO] default - Moderator usertype
+[2024-05-16T14:26:39.441] [INFO] default - error with approving leave form  ReferenceError: user is not defined
+    at updateLeaveDetails (D:\edu\StudentLeaveManagement\backend\api\controllers\leave.js:631:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
