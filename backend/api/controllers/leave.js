@@ -2,6 +2,7 @@ const LeaveDetails = require(`../config/mongoose.model`).leaveDetailsModel;
 const Leave = require(`../config/mongoose.model`).leaveModel;
 const User = require(`../config/mongoose.model`).userModel;
 const fs = require("fs");
+const mailer = require(`nodemailer`);
 const path = require("path");
 const { upload } = require("../middlewares/multer");
 
@@ -88,6 +89,8 @@ const applyLeave = async (req, res, next) => {
     let leaves = 0;
 
     const user = await User.findById(req.user_id);
+    logger.info(user, `----------------------------------------`);
+    const mentor = await User.findById(user.mentor._id);
     logger.info("leaveDetails controller", user, req.user_id);
 
     const leaveDtls = await Leave.find({ typeOfLeave: "Public Holiday" });
@@ -100,12 +103,6 @@ const applyLeave = async (req, res, next) => {
     }
 
     while (dateFrom <= dateTo) {
-      // leaveDtls.forEach((date) => {
-      //   const leaveDate = date.leaveDate;
-      //   if (dateFrom.getDate === leaveDate.getDate) {
-      //     logger.info(leaveDate.getDate, dateFrom.getDate, "comparison");
-      //   }
-      // });
       if (dateFrom.getDay() !== 0) {
         console.log(dateFrom.getDay());
         leaves += 1;
@@ -159,19 +156,6 @@ const applyLeave = async (req, res, next) => {
       };
     }
 
-    // if (
-    //   user.authority === "Student" &&
-    //   (body.typeOfLeave === "NSS" ||
-    //     body.typeOfLeave === "NCC" ||
-    //     body.typeOfLeave === "Sports")
-    // ) {
-    //   leaveDetails["coOrdinatorHandledBy"] = "Pending";
-    //   leaveDetails["coOrdinatorStatus"] = "Pending";
-    //   leaveDetails["eligible"] = true;
-    // } else if (body.typeOfLeave === "Medical") {
-    //   leaveDetails["eligible"] = true;
-    // }
-
     logger.info("leave details", leaveDetails);
 
     const result = await leaveDetails.save();
@@ -182,6 +166,34 @@ const applyLeave = async (req, res, next) => {
         new: true,
       }
     );
+
+    const transporter = mailer.createTransport({
+      // host: `smtp.ethereal.email`,
+      port: 587,
+      secure: false,
+      service: `gmail`,
+      auth: {
+        user: `tubeyunbox000@gmail.com`,
+        pass: `fzyn qngh alhn cfiy`,
+      },
+    });
+    const info = await transporter.sendMail({
+      from: {
+        name: `Student Leave Management`,
+        address: `tubeyunbox000@gmail.com`,
+      },
+      to: `${mentor.email}`,
+      subject: `Leave Application`,
+      text: `${user.firstName} ${user.lastName} applied for a leave \n- ${
+        leaveDetails[`typeOfLeave`]
+      } from ${leaveDetails[`dateFrom`]} to ${
+        leaveDetails[`dateTo`]
+      } \n- for total ${leaveDetails[`ttlLeaves`]} days \n- leave description ${
+        leaveDetails[`description`]
+      }`,
+    });
+    logger.info(user, info.messageId);
+
     logger.info("leave form applied", result, leaveInduction);
 
     return res
@@ -596,6 +608,27 @@ const updateLeaveDetails = async (req, res, next) => {
         return res.status(401).json({ msg: "unauthorized" });
       }
     }
+    const updatedUser = await User.findById(leaveUserResult._id);
+    const transporter = mailer.createTransport({
+      // host: `smtp.ethereal.email`,
+      port: 587,
+      secure: false,
+      service: `gmail`,
+      auth: {
+        user: `tubeyunbox000@gmail.com`,
+        pass: `fzyn qngh alhn cfiy`,
+      },
+    });
+    const info = await transporter.sendMail({
+      from: {
+        name: `Student Leave Management`,
+        address: `tubeyunbox000@gmail.com`,
+      },
+      to: `${leaveUserResult.email}`,
+      subject: `Leave ${updatedUser.status}`,
+      text: `Your leave have been ${updatedUser.status}`,
+    });
+    logger.info(user, info.messageId);
     logger.info("successfully updated leave request", leaveUserResultUpdate);
     return res.status(200).json({ msg: "successfully updated leave request" });
   } catch (err) {
@@ -634,5 +667,4 @@ module.exports = {
   studentToMentorLeaveDetails: studentToMentorLeaveDetails,
   updateLeaveDetails: updateLeaveDetails,
   downloadAttachment: downloadAttachment,
-  chat: chat,
 };

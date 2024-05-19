@@ -4,9 +4,10 @@ const LeaveController = require("../controllers/leave");
 const isAuth = require("../middlewares/is-auth");
 const router = express.Router();
 const { upload } = require("../middlewares/multer");
-router.get("/profile", UserController.userDetails);
+router.get("/profile", isAuth, UserController.userDetails);
 router.post(
   "/leaveform",
+  isAuth,
   upload.single("attachment"),
   LeaveController.applyLeave
 );

@@ -249,6 +249,7 @@ const displayUserType = async (req, res, next) => {
 
 const userDetails = async (req, res, next) => {
   try {
+    logger.info(req.user_id);
     const userResult = await User.findById(req.user_id);
     logger.info(userResult);
     const mentor = await User.findById(userResult.mentor._id);
