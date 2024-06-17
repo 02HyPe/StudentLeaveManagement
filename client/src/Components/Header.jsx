@@ -24,7 +24,6 @@ function Header({ OpenSidebar }) {
       </div>
       <div style={{ fontSize: "30px" }}>
         <IoNotificationsCircleOutline />
-        {/* <BsPersonCircle /> */}
       </div>
     </header>
   );

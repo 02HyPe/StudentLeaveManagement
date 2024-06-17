@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
-import "../Register/Registerform.css"; // Import the CSS file for styling
+import "../Register/Registerform.css";
 import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   const headers = { authorization: `Bearer ` + localStorage.getItem("token") };
-  // register moderator....
   const [dataModerator, setDataModerator] = useState({
     firstName: "",
     lastName: "",
@@ -84,7 +86,16 @@ function App() {
         .then((result) => {
           console.log(result);
           if (result.request.status === 200) {
-            alert("User Registered");
+            toast.success("Registered Successfully", {
+              position: "top-right",
+              autoClose: 2500,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "dark",
+            });
           }
         });
     } catch (error) {
@@ -92,7 +103,6 @@ function App() {
     }
   };
 
-  // register student
   const [data, setData] = useState({
     firstName: "",
     lastName: "",
@@ -109,7 +119,6 @@ function App() {
     authority: "Student",
     registerUser: "Student",
   });
-  // const [data, student] = useState([]);
   const navigate = useNavigate();
 
   const uregister = async (e) => {
@@ -158,18 +167,22 @@ function App() {
         .then((result) => {
           console.log(result);
           if (result.request.status === 200) {
-            alert("user registered");
+            toast.success("Registered Successfully", {
+              position: "top-right",
+              autoClose: 2500,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "dark",
+            });
           }
         });
     } catch (error) {
       console.log(error);
-      // if (result.request.status === 400){
-      //   alert("bad request")
-      // }
     }
   };
-
-  // checkbox end
 
   const [selectedOption, setSelectedOption] = useState("Student");
 
@@ -276,7 +289,7 @@ function App() {
                           onChange={(e) =>
                             setData({ ...data, enrollno: e.target.value })
                           }
-                          placeholder="Enroll No"
+                          placeholder="Enrollment No"
                           value={data.enrollno}
                           required
                         />
@@ -312,9 +325,9 @@ function App() {
                           required
                         >
                           <option value="">Select</option>
-                          <option value="a1">A</option>
-                          <option value="b1">B</option>
-                          <option value="c1">C</option>
+                          <option value="A">A</option>
+                          <option value="B">B</option>
+                          <option value="C">C</option>
                         </select>
                       </label>
                     </div>
@@ -330,8 +343,9 @@ function App() {
                           required
                         >
                           <option value="">Select</option>
-                          <option value="NSS Student">NSS</option>
+                          <option value="Student">Regular</option>
                           <option value="NCC Student">NCC</option>
+                          <option value="NSS Student">NSS</option>
                           <option value="Sports Student">Sports</option>
                         </select>
                       </label>
@@ -361,7 +375,6 @@ function App() {
                         <input
                           type="tel"
                           name="phoneNumber"
-                          // pattern="[0-9]{10}"
                           maxlength="10"
                           onChange={(e) =>
                             setData({ ...data, phoneNumber: e.target.value })
@@ -402,10 +415,10 @@ function App() {
                           required
                         >
                           <option value="">Select</option>
-                          <option value="IT">Information Technology</option>
-                          <option value="CS">Computer Science</option>
-                          <option value="MB">Microbiology</option>
-                          <option value="BT">Biotechnology</option>
+                          <option value="IT">IT</option>
+                          <option value="CS">CS</option>
+                          <option value="MB">MB</option>
+                          <option value="BT">BT</option>
                         </select>
                       </label>
                     </div>
@@ -422,9 +435,9 @@ function App() {
                           required
                         >
                           <option value="">Select</option>
-                          <option value="FY">First Year</option>
-                          <option value="SY">Second Year</option>
-                          <option value="TY">Third Year</option>
+                          <option value="FY">FY</option>
+                          <option value="SY">SY</option>
+                          <option value="TY">TY</option>
                         </select>
                       </label>
                     </div>
@@ -454,12 +467,6 @@ function App() {
                     <button className="btn-register" type="Submit">
                       Register
                     </button>
-
-                    {/* <div className="lregister">
-                      <p>
-                        Already have an account? <a href="/">Sign In</a>
-                      </p>
-                    </div> */}
                   </div>
                 </form>
               </div>
@@ -584,7 +591,6 @@ function App() {
                             })
                           }
                           value={dataModerator.mentorId}
-                          // required
                         >
                           <option value="">Select</option>
                           {mentor.map((mentor) => (
@@ -674,10 +680,12 @@ function App() {
                           value={dataModerator.authority}
                           required
                         >
+                          <option value="">Select</option>
                           <option value="Faculty">Faculty</option>
+                          <option value="Mentor">Mentor</option>
                           <option value="H.O.D">H.O.D</option>
                           <option value="Co-ordinator">Co-ordinator</option>
-                          <option value="Mentor">Mentor</option>
+                          <option value="Principal">Principal</option>
                         </select>
                       </label>
                     </div>
@@ -703,27 +711,27 @@ function App() {
                         </select>
                       </label>
                     </div>
-
-                    {/* <div className="lregister">
-                      <p>
-                        Already have an account? <a href="/">Sign In</a>
-                      </p>
-                    </div> */}
                   </div>
                 </form>
               </div>
             )}
           </div>
         </div>
+        <ToastContainer
+          position="top-right"
+          autoClose={2500}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+        />
       </main>
     </div>
   );
-
-  // {
-  //   data.map((e) => {
-  //     <p>{e.firstName}</p>;
-  //   });
-  // }
 }
 
 export default App;

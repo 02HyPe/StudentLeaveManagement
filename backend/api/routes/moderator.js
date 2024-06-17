@@ -1,5 +1,4 @@
 const express = require(`express`);
-// const ModeratorController = require(`../controllers/moderator`);
 const LeaveController = require(`../controllers/leave`);
 const isModerator = require(`../middlewares/is-moderator`);
 const router = express.Router();

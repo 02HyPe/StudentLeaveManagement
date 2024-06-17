@@ -9,7 +9,6 @@ import {
 import Loginform from "./Login/Loginform";
 import LoginformAdmin from "./Login/LoginformAdmin";
 import RegisterForm from "./Register/RegisterForm";
-// import RegisterModerator from "./Register/RegisterModerator";
 import Dashboard from "./Dashboard";
 import Profile from "./Profile/Profile";
 import Users from "./Components/Users";
@@ -40,11 +39,6 @@ class App extends React.Component {
 
               <Route path="/Admin" element={<LoginformAdmin />} />
               <Route exact path="/register" element={<RegisterForm />} />
-              {/* <Route
-                exact
-                path="/registermod"
-                element={<RegisterModerator />}
-              /> */}
               <Route element={<PrivateRoute />}>
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route exact path="/user" element={<Users />} />

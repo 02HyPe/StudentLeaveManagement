@@ -10,7 +10,6 @@ const schema = new mongoose.Schema({
   },
   leaveName: { type: String, required: false, unique: true },
   leaveDate: { type: Date, required: false },
-  // leaveFor: { type: [String], required: true, enum: ["Moderator", "Student"] },
 });
 
 module.exports.schema = schema;

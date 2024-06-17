@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import "./Styles.css";
 import {
-  // BsCart3,
   BsGrid1X2Fill,
-  // BsFillArchiveFill,
-  // BsFillGrid3X3GapFill,
-  // BsPeopleFill,
-  // BsListCheck,
-  // BsMenuButtonWideFill,
   BsFillGearFill,
 } from "react-icons/bs";
 import axios from "axios";
@@ -26,11 +20,6 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
   const navigate = useNavigate();
   const logOutHandler = async () => {
     try {
-      // const userToken = sessionStorage.getItem("userToken");
-      // const response = await axios.post("http://localhost:9000/auth/logout", {
-      //   token: userToken,
-      // });
-      // console.log(response.data);
       doLogout(() => {
         console.log("logged out");
         navigate("/login");
@@ -43,7 +32,6 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
   const tokenPayload = JSON.parse(atob(token.split(".")[1]));
   const userName = tokenPayload.name;
   const userType = tokenPayload.type;
-  // const [userType, setuserType] = useState(false);
 
   return (
     <aside
@@ -109,11 +97,6 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
                 <FaListUl className="icon" /> Leave Request List
               </a>
             </li>
-            {/* <li className="sidebar-list-item">
-              <a href="/leaveForm">
-                <FaCalendarTimes className="icon" /> Leave Form
-              </a>
-            </li> */}
           </>
         )}
         <li className="sidebar-list-item">

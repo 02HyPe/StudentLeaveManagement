@@ -88,6 +88,10 @@
   font-weight: 700;
 }
 
+.login-btn:hover{
+  background-color: rgb(255, 182, 104) !important;
+}
+
 .wrapper .register-link {
   font-size: 14.5px;
   text-align: center;

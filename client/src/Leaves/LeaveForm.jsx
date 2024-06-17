@@ -6,7 +6,6 @@ import axios from "axios";
 import Spinner from "../Components/Spinner";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import { useNavigate } from "react-router-dom";
 
 function LeaveForm(props) {
   const headers = { authorization: `Bearer ` + localStorage.getItem(`token`) };
@@ -23,8 +22,6 @@ function LeaveForm(props) {
     userAuthority: "",
     division: "",
   });
-  // const [data, student] = useState([]);
-  // const navigate = useNavigate();
 
   const uregister = async (e) => {
     e.preventDefault();
@@ -48,7 +45,7 @@ function LeaveForm(props) {
           if (result.request.status === 200 && result.data.eligible === true) {
             toast.success("Leave Applied", {
               position: "top-right",
-              autoClose: 5000,
+              autoClose: 2500,
               hideProgressBar: false,
               closeOnClick: true,
               pauseOnHover: true,
@@ -60,9 +57,9 @@ function LeaveForm(props) {
             result.request.status === 200 &&
             result.data.eligible === false
           ) {
-            toast.warning("leave Limit Reached", {
+            toast.error("Leave Limit Reached", {
               position: "top-right",
-              autoClose: 5000,
+              autoClose: 2500,
               hideProgressBar: false,
               closeOnClick: true,
               pauseOnHover: true,
@@ -84,11 +81,8 @@ function LeaveForm(props) {
           headers: headers,
         });
         const updateLoading = () => {
-          setLoading(true);
-
-          setTimeout(() => {
+          setLoading(true);          
             const userData = response.data;
-            // assuming response contains student data
             setData({
               ...data,
               userName: userData.firstName + " " + userData.lastName,
@@ -102,7 +96,7 @@ function LeaveForm(props) {
             });
 
             setLoading(false);
-          }, 500);
+          
         };
         updateLoading();
       } catch (error) {
@@ -147,7 +141,7 @@ function LeaveForm(props) {
                   <div className="form-column-leave">
                     <div className="form-group-leave">
                       <label>
-                        First Name:
+                        Name:
                         <input
                           type="text"
                           name="Name"
@@ -156,7 +150,6 @@ function LeaveForm(props) {
                           }
                           value={data.userName}
                           readOnly
-                          // value=""
                           placeholder=" Name"
                           required
                         />
@@ -177,7 +170,6 @@ function LeaveForm(props) {
                           }
                           value={data.studentEnrollNo}
                           readOnly
-                          // value=""
                           placeholder="Enrollment No"
                           required
                         />
@@ -222,6 +214,7 @@ function LeaveForm(props) {
                           }
                           value={data.userMentor}
                           readOnly
+                          placeholder=" Mentor"
                           required
                         />
                       </label>
@@ -274,12 +267,12 @@ function LeaveForm(props) {
                           required
                         >
                           <option value="">Select</option>
-                          <option value="Vacation">Vacation</option>
-                          <option value="Sick Leave">Sick Leave</option>
-                          <option value="Sports">Sports</option>
-                          <option value="Medical">Medical</option>
-                          <option value="NSS">NSS</option>
-                          <option value="NCC">NCC</option>
+                          <option value="Vacation">Vacation Leave</option>
+                          <option value="Medical">Medical Leave</option>
+                          <option value="Sports">Sports Leave</option>
+                          <option value="NCC">NCC Leave</option>
+                          <option value="NSS">NSS Leave</option>
+                          <option value="Others">Others</option>
                         </select>
                       </label>
                     </div>
@@ -327,7 +320,7 @@ function LeaveForm(props) {
                   <div className="form-column-leave">
                     <div className="form-group-leave">
                       <label>
-                        First Name:
+                        Name:
                         <input
                           type="text"
                           name="Name"
@@ -336,7 +329,6 @@ function LeaveForm(props) {
                           }
                           value={data.userName}
                           readOnly
-                          // value=""
                           placeholder=" Name"
                           required
                         />
@@ -351,8 +343,7 @@ function LeaveForm(props) {
                           name="enrollNo"
                           value={data.userDepartment}
                           readOnly
-                          // value=""
-                          placeholder="Enrollment No"
+                          placeholder="Department"
                           required
                         />
                       </label>
@@ -366,7 +357,7 @@ function LeaveForm(props) {
                           name="division"
                           readOnly
                           value={data.userAuthority}
-                          placeholder="Division"
+                          placeholder="Authority"
                           required
                         />
                       </label>
@@ -379,6 +370,7 @@ function LeaveForm(props) {
                           name="mentor"
                           value={data.userMentor}
                           readOnly
+                          placeholder=" Mentor"
                           required
                         />
                       </label>
@@ -431,10 +423,10 @@ function LeaveForm(props) {
                           required
                         >
                           <option value="">Select</option>
-                          <option value="vc">Vacation</option>
-                          <option value="Sick Leave">Sick Leave</option>
-                          <option value="Sports">Sports</option>
-                          <option value="Casual Leave">Casual Leave</option>
+                          <option value="Medical">Medical Leave</option>
+                          <option value="Casual">Casual Leave</option>
+                          <option value="Vacation">Vacation Leave</option>
+                          <option value="Others">Others</option>
                         </select>
                       </label>
                     </div>
@@ -482,7 +474,7 @@ function LeaveForm(props) {
                   <div className="form-column-leave">
                     <div className="form-group-leave">
                       <label>
-                        First Name:
+                        Name:
                         <input
                           type="text"
                           name="Name"
@@ -491,7 +483,6 @@ function LeaveForm(props) {
                           }
                           value={data.userName}
                           readOnly
-                          // value=""
                           placeholder=" Name"
                           required
                         />
@@ -506,8 +497,7 @@ function LeaveForm(props) {
                           name="enrollNo"
                           value={data.userDepartment}
                           readOnly
-                          // value=""
-                          placeholder="Enrollment No"
+                          placeholder="Department"
                           required
                         />
                       </label>
@@ -521,7 +511,7 @@ function LeaveForm(props) {
                           name="division"
                           readOnly
                           value={data.userAuthority}
-                          placeholder="Division"
+                          placeholder="Authority"
                           required
                         />
                       </label>
@@ -534,6 +524,7 @@ function LeaveForm(props) {
                           name="mentor"
                           value={data.userMentor}
                           readOnly
+                          placeholder=" Mentor"
                           required
                         />
                       </label>
@@ -586,10 +577,10 @@ function LeaveForm(props) {
                           required
                         >
                           <option value="">Select</option>
-                          <option value="vc">Vacation</option>
-                          <option value="Sick Leave">Sick Leave</option>
-                          <option value="Sports">Sports</option>
-                          <option value="Casual Leave">Casual Leave</option>
+                          <option value="Medical">Medical Leave</option>
+                          <option value="Casual">Casual Leave</option>
+                          <option value="Vacation">Vacation Leave</option>
+                          <option value="Others">Others</option>
                         </select>
                       </label>
                     </div>
@@ -631,7 +622,7 @@ function LeaveForm(props) {
       </main>
       <ToastContainer
         position="top-right"
-        autoClose={5000}
+        autoClose={2500}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick

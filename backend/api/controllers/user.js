@@ -55,11 +55,12 @@ const createUser = async (req, res, next) => {
       password: password,
       phoneNumber: body.phoneNumber,
       department: body.department,
-      leave: 10,
+      leave: 0,
     });
     const mentorResult = await User.findById(body.mentorId);
     logger.info(mentorResult, "--mentor");
     if (type === "Student") {
+      const mentorResult = await User.findById(body.mentorId);
       logger.info(type);
       user["userId"] = body.email;
       user["authority"] = body.authority;
@@ -72,13 +73,12 @@ const createUser = async (req, res, next) => {
         firstName: mentorResult.firstName,
         lastName: mentorResult.lastName,
       };
-      user["leave"] = 20;
+      user["leave"] = 0;
     } else if (type === "Moderator") {
       if (body.authority === "Principal") {
         user["userId"] = body.userId;
         user["authority"] = body.authority;
         user["batch"] = body.batch;
-        user["enrollno"] = body.userId;
       } else {
         user["userId"] = body.userId;
         user["authority"] = body.authority;
@@ -88,7 +88,6 @@ const createUser = async (req, res, next) => {
           lastName: mentorResult.lastName,
         };
         user["batch"] = body.batch;
-        user["enrollno"] = body.userId;
       }
       console.log(type);
     }
