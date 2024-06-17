@@ -62,7 +62,6 @@ function Profile() {
             <div className="settings__wrapper">
               <div className="details__form">
                 <h1 className="profile__title">Profile</h1>
-                {/* <p className="profile__desc"> Personals Details</p> */}
                 <form>
                   <div className="form__group">
                     <div>
@@ -70,16 +69,16 @@ function Profile() {
                       <input
                         type="text"
                         value={data.name}
-                        placeholder="Your Name"
+                        placeholder="Name"
                       />
                     </div>
 
                     <div>
-                      <label>Enrollnment No:</label>
+                      <label>Enrollment No</label>
                       <input
                         type="text"
                         value={data.enrollNo}
-                        placeholder="SYL 3108"
+                        placeholder="Enrollment No"
                       />
                     </div>
                   </div>
@@ -90,16 +89,16 @@ function Profile() {
                       <input
                         type="email"
                         value={data.email}
-                        placeholder="example@gmail.com"
+                        placeholder="Email"
                       />
                     </div>
 
                     <div>
-                      <label>Phone Number:</label>
+                      <label>Phone Number</label>
                       <input
                         type="number"
                         value={data.phoneNumber}
-                        placeholder="+98--------"
+                        placeholder="Phone Number"
                       />
                     </div>
                   </div>
@@ -110,12 +109,12 @@ function Profile() {
                       <input
                         type="text"
                         value={data.batch}
-                        placeholder="year/department/division"
+                        placeholder="Batch"
                       />
                     </div>
 
                     <div>
-                      <label>Mentor:</label>
+                      <label>Mentor</label>
                       <input
                         type="text"
                         value={data.mentor}

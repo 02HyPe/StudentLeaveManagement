@@ -80,7 +80,7 @@ function Users() {
         headers: headers,
       })
       .then((res) => {
-        console.log(res.data); // kadhvanu se
+        console.log(res.data); 
         setUser(res.data);
       })
       .catch((error) => {
@@ -106,9 +106,9 @@ function Users() {
         );
         if (res.status === 200) {
           console.log("deleted successfully");
-          toast.success("Data Deleted Successfully", {
+          toast.success("Deleted Successfully", {
             position: "top-right",
-            autoClose: 5000,
+            autoClose: 2500,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -123,33 +123,6 @@ function Users() {
       console.log(err, "deleting user");
     }
   };
-
-  // const deleteUser = async (user_id) => {
-  //   try {
-  //     const confirmation = await prompt(
-  //       "Are You Sure You Want To Delete This Record ?"
-  //     );
-  //     if (confirmation !=null) {
-  //       console.log(user_id);
-  //       const res = await axios.post(
-  //         "http://localhost:9000/admin/user/delete",
-  //         {
-  //           user_id: user_id,
-  //         },
-  //         {
-  //           headers: headers,
-  //         }
-  //       );
-  //       if (res.status === 200) {
-  //         console.log("deleted successfully");
-  //         getUsers();
-  //       }
-  //     }
-
-  //   } catch (err) {
-  //     console.log(err, "deleting user");
-  //   }
-  // };
 
   const [openSidebarToggle, setOpenSidebarToggle] = useState(false);
 
@@ -287,8 +260,6 @@ function Users() {
                   borderWidth="1px"
                   boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
                 >
-                  {/* <Text>{`Type: ${user.type}, Status: ${user.status}`}</Text> */}
-
                   <Table
                     width={"100%"}
                     backgroundColor={"#ffffff"}
@@ -468,8 +439,6 @@ function Users() {
                   borderWidth="1px"
                   boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
                 >
-                  {/* <Text>{`Type: ${user.type}, Status: ${user.status}`}</Text> */}
-
                   <Table
                     width={"100%"}
                     backgroundColor={"#ffffff"}
@@ -485,7 +454,6 @@ function Users() {
                         <Th textAlign={"left"}>Authority</Th>
                         <Th textAlign={"left"}>Email</Th>
                         <Th textAlign={"left"}>Department</Th>
-                        {/* <Th>Operation</Th> */}
                       </Tr>
                     </Thead>
                     <Tbody>
@@ -524,32 +492,7 @@ function Users() {
                           >
                             {user.department}
                           </Td>
-                          {/* <Td
-                        padding="20px"
-                        boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
-                      >
-                        <Button
-                          // onClick={() => updateStatus(user.id, "Accepted", "Reason")}
-
-                          boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
-                          backgroundColor={"#3182ce!important"}
-                          borderRadius={0}
-                          flex={1}
-                          isDisabled={user.status == "Approved" ? true : ""}
-                        >
-                          Update
-                        </Button>
-                        <Button
-                          // onClick={() => updateStatus(user.id, "Rejected", "reason")}
-                          boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
-                          backgroundColor={"#e53e3e!important"}
-                          borderRadius={0}
-                          flex={1}
-                          isDisabled={user.status == "Rejected" ? true : ""}
-                        >
-                          Delete
-                        </Button>
-                      </Td> */}
+                         
                         </Tr>
                       ))}
                     </Tbody>
@@ -561,7 +504,7 @@ function Users() {
         )}
         <ToastContainer
           position="top-right"
-          autoClose={5000}
+          autoClose={2500}
           hideProgressBar={false}
           newestOnTop={false}
           closeOnClick

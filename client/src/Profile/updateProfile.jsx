@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../Profile/updateProfile.css"; // Import the CSS file for styling
+import "../Profile/updateProfile.css";
 import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
 import axios from "axios";
@@ -108,7 +108,7 @@ function updateProfile() {
         }
       );
       if (result.status === 200) {
-        toast.success("updated successfully");
+        toast.success("Updated Successfully");
       } else {
         toast.error("error");
       }
@@ -133,10 +133,7 @@ function updateProfile() {
         {data.type === "Student" && (
           <div className="registration-container-update">
             <h1 className="title-update">Update Form</h1>
-            <form
-              className="registration-form-update"
-              // onSubmit={updateProfile}
-            >
+            <form className="registration-form-update">
               <div className="form-column-update">
                 <div className="form-group-update">
                   <label>
@@ -153,47 +150,6 @@ function updateProfile() {
                   </label>
                 </div>
 
-                <div className="form-group-update">
-                  <label>
-                    Year:
-                    <select
-                      name="year"
-                      onChange={(e) =>
-                        setData({ ...data, year: e.target.value })
-                      }
-                      value={data.year}
-                    >
-                      <option value="">Select</option>
-                      <option value="FY">First Year</option>
-                      <option value="SY">Second Year</option>
-                      <option value="TY">Third Year</option>
-                    </select>
-                  </label>
-                </div>
-
-                <div className="form-group-update">
-                  <label>
-                    Mentor:
-                    <select
-                      name="mentorId"
-                      onChange={(e) =>
-                        setData({ ...data, mentorId: e.target.value })
-                      }
-                      value={data.mentorId}
-                    >
-                      <option value="">Select</option>
-                      {mentor.map((mentor) => (
-                        <option key={mentor._id} value={mentor._id}>
-                          {mentor.mentorFirstName} {mentor.mentorLastName} (
-                          {mentor.authority})
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                </div>
-              </div>
-
-              <div className="form-column-update">
                 <div className="form-group-update">
                   <label>
                     Last Name:
@@ -228,8 +184,9 @@ function updateProfile() {
                   <label>
                     Phone Number:
                     <input
-                      type="number"
-                      name="phoneNumber"
+                    type="tel"
+                          name="phoneNumber"
+                          maxlength="10"
                       onChange={(e) =>
                         setData({ ...data, phoneNumber: e.target.value })
                       }
@@ -238,24 +195,9 @@ function updateProfile() {
                     />
                   </label>
                 </div>
+              </div>
 
-                <div className="form-group-update">
-                  <label>
-                    Division:
-                    <select
-                      name="division"
-                      onChange={(e) =>
-                        setData({ ...data, division: e.target.value })
-                      }
-                      value={data.division}
-                    >
-                      <option value="">Select</option>
-                      <option value="A">A</option>
-                      <option value="B">B</option>
-                    </select>
-                  </label>
-                </div>
-
+              <div className="form-column-update">
                 <div className="form-group-update">
                   <label>
                     Course:
@@ -284,42 +226,47 @@ function updateProfile() {
                       value={data.department}
                     >
                       <option value="">Select</option>
-                      <option value="IT">Information Technolodgy</option>
-                      <option value="CS">Computer Science</option>
-                      <option value="MB">Microbiology</option>
-                      <option value="BT">Biotechnology</option>
+                      <option value="IT">IT</option>
+                      <option value="CS">CS</option>
+                      <option value="MB">MB</option>
+                      <option value="BT">BT</option>
                     </select>
                   </label>
                 </div>
-
-                <button onClick={updateProfile}>Update</button>
-              </div>
-            </form>
-          </div>
-        )}
-        {data.type === "Moderator" && (
-          <div className="registration-container-update">
-            <h1 className="title-update">Update Form</h1>
-            <form
-              className="registration-form-update"
-              // onSubmit={updateProfile}
-            >
-              <div className="form-column-update">
                 <div className="form-group-update">
                   <label>
-                    First Name:
-                    <input
-                      type="text"
-                      name="firstName"
+                    Year:
+                    <select
+                      name="year"
                       onChange={(e) =>
-                        setData({ ...data, firstName: e.target.value })
+                        setData({ ...data, year: e.target.value })
                       }
-                      placeholder="First Name"
-                      value={data.firstName}
-                    />
+                      value={data.year}
+                    >
+                      <option value="">Select</option>
+                      <option value="FY">FY</option>
+                      <option value="SY">SY</option>
+                      <option value="TY">TY</option>
+                    </select>
                   </label>
                 </div>
-
+                <div className="form-group-update">
+                  <label>
+                    Division:
+                    <select
+                      name="division"
+                      onChange={(e) =>
+                        setData({ ...data, division: e.target.value })
+                      }
+                      value={data.division}
+                    >
+                      <option value="">Select</option>
+                      <option value="A">A</option>
+                      <option value="B">B</option>
+                      <option value="C">C</option>
+                    </select>
+                  </label>
+                </div>
                 <div className="form-group-update">
                   <label>
                     Mentor:
@@ -338,6 +285,30 @@ function updateProfile() {
                         </option>
                       ))}
                     </select>
+                  </label>
+                </div>
+                <button onClick={updateProfile}>Update</button>
+              </div>
+            </form>
+          </div>
+        )}
+        {data.type === "Moderator" && (
+          <div className="registration-container-update">
+            <h1 className="title-update">Update Form</h1>
+            <form className="registration-form-update">
+              <div className="form-column-update">
+                <div className="form-group-update">
+                  <label>
+                    First Name:
+                    <input
+                      type="text"
+                      name="firstName"
+                      onChange={(e) =>
+                        setData({ ...data, firstName: e.target.value })
+                      }
+                      placeholder="First Name"
+                      value={data.firstName}
+                    />
                   </label>
                 </div>
               </div>
@@ -367,7 +338,7 @@ function updateProfile() {
                       onChange={(e) =>
                         setData({ ...data, enrollno: e.target.value })
                       }
-                      placeholder="Enroll No"
+                      placeholder="Enrollment No"
                       value={data.enrollno}
                     />
                   </label>
@@ -399,10 +370,31 @@ function updateProfile() {
                       value={data.department}
                     >
                       <option value="">Select</option>
-                      <option value="IT">Information Technolodgy</option>
-                      <option value="CS">Computer Science</option>
-                      <option value="MB">Microbiology</option>
-                      <option value="BT">Biotechnology</option>
+                      <option value="IT">IT</option>
+                      <option value="CS">CS</option>
+                      <option value="MB">MB</option>
+                      <option value="BT">BT</option>
+                    </select>
+                  </label>
+                </div>
+
+                <div className="form-group-update">
+                  <label>
+                    Mentor:
+                    <select
+                      name="mentorId"
+                      onChange={(e) =>
+                        setData({ ...data, mentorId: e.target.value })
+                      }
+                      value={data.mentorId}
+                    >
+                      <option value="">Select</option>
+                      {mentor.map((mentor) => (
+                        <option key={mentor._id} value={mentor._id}>
+                          {mentor.mentorFirstName} {mentor.mentorLastName} (
+                          {mentor.authority})
+                        </option>
+                      ))}
                     </select>
                   </label>
                 </div>

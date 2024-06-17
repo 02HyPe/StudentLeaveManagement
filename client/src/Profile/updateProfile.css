@@ -1,214 +1,195 @@
 .registration-container-update .registration-form-update {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px 20px;
-    border-radius: 15px;
-    /* display: flex; */
-    justify-content: center;
-    align-items: top;
-    background-color: #4b4b4b;
-    border: 2px solid #face4d;
-    backdrop-filter: blur(30px);
-    margin-bottom: 20px;
-    color: #face4d;
-    /* margin-top: 550px;
-      margin-right: 350px; */
-  }
-  
-  .registration-container-update .registration-form-update:hover {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: top;
+  background-color: #4b4b4b;
+  border: 2px solid #face4d;
+  backdrop-filter: blur(30px);
+  margin-bottom: 20px;
+  color: #face4d;
+}
+
+.registration-container-update .registration-form-update:hover {
   box-shadow: 0 0 8px #face4d;
-  }
-  
-  .form-column-update {
-    flex: 1;
-    padding: 0 10px;
-    
-  
-  }
-  /* .form-column-update {
-    flex: 1;
-    padding: 0 10px;
-    
-  
-  } */
-  
-  
-  .form-group-update input::placeholder {
-    color: #face4d;
-
-  }
-
-  .form-email-search {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 2px solid #face4d;
 }
-.form-btn-search{
- padding-top: 10px; 
+
+.form-column-update {
+  flex: 1;
+  padding: 0 10px;
 }
-  .form-group-update input {
-    margin-bottom: 10px;
-    position: relative;
-    background: #3c3c3c;
-    border: 2px solid #face4d;
-    outline: none;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #face4d;
-    /* padding: 20px 45px 20px 20px; */
-  }
-  
-  .form-group-update select {
-    margin-bottom: 10px;
-    position: relative;
-    background: #3c3c3c;
-    border-radius: 40px;
-    border: 2px solid #face4d;
-    outline: none;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #face4d;
-  }
-  
-  .form-group-update option {
-    background-color: black;
-    color: #face4d;
-  }
-  
-  label {
-    display: block;
-    color: #face4d;
-    margin-bottom: 5px;
-  }
-  
-  input,
-  select,
-  textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 3px;
-    box-sizing: border-box;
-  }
-  
-  button {
-    background-color: #face4d;
-    color: #000;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-left: 10px;
-    /* margin-top: -10px; */
-    align-content: center;
-  }
-  
-  .registration-container-update .title-update {
-    align-content: CENTER;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    text-align: center;
-    color: #face4d;
-  }
-  
-  .registration-form-update .lregister-update {
-    font-size: 14.5px;
-    text-align: center;
-    margin: 10px 0 20px;
-  }
-  
-  .lregister-update p a {
-    color: #face4d !important;
-    text-decoration: none;
-    /* font-weight: 600; */
-  }
-  
-  .lregister-update p a:hover {
-    text-decoration: underline;
-  }
-  
-  /* The switch - the box around the slider */
-  .switch {
-    font-size: 11px;
-    position: relative;
-    display: inline-block;
-    width: 3.5em;
-    height: 1em;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    border: 2px solid #000;
-    transition: 0.4s;
-    border-radius: 1px;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 1.3em;
-    width: 1.2em;
-    border-radius: 2px;
-    left: 0.2em;
-    bottom: 0.3em;
-    background-color: #fff;
-    border: 2px solid #000;
-    transition: 0.1s;
-  }
-  
-  input:checked + .slider {
-    background-color: #000;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196f3;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(1.3em);
-  }
-  .switch-container {
-    padding-top: 25px;
-  }
-  
-  .switch-toggle {
-    padding-top: 15px;
-  }
-  .grid-update {
-    display: grid;
-    grid-template-columns: 260px 1fr 1fr 1fr;
-    /* padding-left: -150px;
-    padding-right: -150px; */
-    grid-template-rows: 0.2fr 3fr;
-    grid-template-areas:
-      "sidebar header header header"
-      "sidebar main main main";
-    height: 100vh;
-    /* position: relative; */
-  }
-  
-  .main-update {
-    grid-area: main;
-    overflow-y: auto;
-    background-color: #2f2f2f;
-  }
-  
-  
+
+.form-group-update input::placeholder {
+  color: #face4d;
+}
+
+.form-email-search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #face4d;
+}
+.form-btn-search {
+  padding-top: 10px;
+}
+.form-group-update input {
+  margin-bottom: 10px;
+  position: relative;
+  background: #3c3c3c;
+  border: 2px solid #face4d;
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #face4d;
+}
+
+.form-group-update select {
+  margin-bottom: 10px;
+  position: relative;
+  background: #3c3c3c;
+  border-radius: 40px;
+  border: 2px solid #face4d;
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #face4d;
+}
+
+.form-group-update option {
+  background-color: black;
+  color: #face4d;
+}
+
+label {
+  display: block;
+  color: #face4d;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #face4d;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  align-content: center;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: rgb(255, 182, 104) !important;
+}
+
+.registration-container-update .title-update {
+  align-content: CENTER;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: #face4d;
+}
+
+.registration-form-update .lregister-update {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+.lregister-update p a {
+  color: #face4d !important;
+  text-decoration: none;
+}
+
+.lregister-update p a:hover {
+  text-decoration: underline;
+}
+
+.switch {
+  font-size: 11px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 1em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border: 2px solid #000;
+  transition: 0.4s;
+  border-radius: 1px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.3em;
+  width: 1.2em;
+  border-radius: 2px;
+  left: 0.2em;
+  bottom: 0.3em;
+  background-color: #fff;
+  border: 2px solid #000;
+  transition: 0.1s;
+}
+
+input:checked + .slider {
+  background-color: #000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(1.3em);
+}
+.switch-container {
+  padding-top: 25px;
+}
+
+.switch-toggle {
+  padding-top: 15px;
+}
+.grid-update {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    "sidebar header header header"
+    "sidebar main main main";
+  height: 100vh;
+}
+
+.main-update {
+  grid-area: main;
+  overflow-y: auto;
+  background-color: #2f2f2f;
+}

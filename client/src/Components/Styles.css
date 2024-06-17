@@ -6,7 +6,6 @@
 .date {
   float: right;
 }
-/* loading */
 .loading {
   display: flex;
   justify-content: center;
@@ -15,10 +14,7 @@
   align-content: center;
   align-items: center;
 }
-
-/* Title tp animation */
 .shree-animate {
-  /* color: #484848; */
   color: #face4d;
   font-weight: bold;
   letter-spacing: 1px;
@@ -42,21 +38,13 @@
   color: #face4d;
   text-shadow: 0 0 10px #face4d, 0 0 20px #face4d, 0 0 40px #face4d;
 }
-/* tp end */
 
-/* time pass animation */
-/* @import url("https://fonts.googleapis.com/css?family=Roboto:700");
-
-body {
-  font-family: "Roboto";
-} */
 p {
   text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
     0 0 3px rgba(255, 255, 255, 0.3);
 }
 .container {
   color: #face4d;
-  /* color: rgb(41, 30, 10); */
   font-size: 1.56rem;
   text-transform: uppercase;
 
@@ -84,7 +72,6 @@ p {
 
 .first div {
   background-color: rgb(220, 180, 111);
-  /* #20a7d8; */
 }
 .second div {
   background-color: #cd921e;
@@ -161,13 +148,11 @@ p {
   height: 100vh;
 }
 
-/* Header  */
 .header {
   grid-area: header;
-  /* margin-bottom: 10px; */
+
   height: 60px;
   display: flex;
-  /* background-color: rgb(220, 180, 111); */
   background-color: #4b4b4b;
   color: white;
   align-items: center;
@@ -175,7 +160,6 @@ p {
   padding: 30px 30px 30px 30px;
   box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
   z-index: 1000;
-  /* backdrop-filter: blur(100px); */
 }
 
 .shree-header {
@@ -225,9 +209,7 @@ p {
   background-color: rgb(220, 180, 111);
   cursor: grab;
 }
-/* End Header  */
 
-/* Sidebar  */
 #sidebar {
   grid-area: sidebar;
   height: 100%;
@@ -236,7 +218,6 @@ p {
   -webkit-transition: all 0.5s;
   box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(100px);
-  /* background-color: rgb(220, 180, 111); */
   background-color: #4b4b4b;
   z-index: 1000;
 }
@@ -247,7 +228,6 @@ p {
   align-items: center;
   padding: 15px 30px 20px 30px;
   margin-bottom: 30px;
-  /* border-bottom: 2px solid rgb(235, 211, 173); */
   border-bottom: 2px solid white;
 }
 
@@ -285,24 +265,15 @@ p {
 
 .sidebar-list-item > a {
   text-decoration: none;
-  /* color: rgb(41, 30, 10); */
   color: #face4d;
 }
 
 .sidebar-responsive {
   display: inline !important;
   position: absolute;
-  /*
-      we want the z-index of the sidebar higher so that
-      the main-card2 are not showing over the sidebar 
-      on small screens
-    */
   z-index: 12 !important;
 }
 
-/* End Sidebar  */
-
-/* Main  */
 .main-container {
   grid-area: main;
   overflow-y: auto;
@@ -321,7 +292,6 @@ p {
   display: flex;
   color: rgb(220, 180, 111);
 
-  /* text-decoration: underline; */
   justify-content: space-between;
 }
 
@@ -471,9 +441,6 @@ table.GeneratedTable thead {
 .calendar {
   background-color: none;
 }
-/* End Main  */
-
-/* Medium <= 992px */
 
 @media screen and (max-width: 992px) {
   .grid-container {
@@ -503,7 +470,6 @@ table.GeneratedTable thead {
     display: inline;
   }
 }
-/* Small <= 768px */
 
 @media screen and (max-width: 768px) {
   .main-cards {
@@ -517,8 +483,6 @@ table.GeneratedTable thead {
     margin-top: 30px;
   }
 }
-
-/* Extra Small <= 576px */
 
 @media screen and (max-width: 576px) {
   .hedaer-left {
@@ -559,7 +523,6 @@ table.GeneratedTable thead {
   background-color: #4b4b4b !important;
 }
 
-/* data table dashboard */
 .mHisf {
   background-color: #4b4b4b !important;
   color: #face4d !important;
@@ -587,4 +550,7 @@ table.GeneratedTable thead {
 .hVPalX {
   border-top-color: white !important;
 }
-/* data table end */
+
+/* .btn_viewHolidayList:hover {
+  background-color: #ffffff !important;
+} */

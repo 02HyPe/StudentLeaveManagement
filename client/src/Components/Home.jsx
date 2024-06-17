@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Styles.css";
-import { Chart as ChartJS, defaults } from "chart.js/auto"; // need this
+import { Chart as ChartJS, defaults } from "chart.js/auto";
 import { Doughnut } from "react-chartjs-2";
-import sourceData from "./sourceData.json";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { StaticDatePicker } from "@mui/x-date-pickers/StaticDatePicker";
@@ -16,7 +15,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Home(props) {
-  //admin-dash
   const token = localStorage.getItem(`token`);
   const tokenPayload = JSON.parse(atob(token.split(".")[1]));
   const [userName, setUserNane] = useState("");
@@ -94,7 +92,6 @@ function Home(props) {
             rejectedLeaves: result.data.rejectedLeaves,
           });
           props.setProgress(70);
-          // toast.success("Student Login Successful");
           setLoading(false);
           props.setProgress(100);
         })
@@ -115,7 +112,6 @@ function Home(props) {
             rejectedLeaves: result.data.rejectedLeaves,
           });
           props.setProgress(70);
-          // toast.success("Login Successful");
           setLoading(false);
           props.setProgress(100);
         })
@@ -137,7 +133,7 @@ function Home(props) {
       },
     },
     {
-      name: "Enrollment No.",
+      name: "Enrollment No",
       selector: (row) => row.enrollno,
       style: {
         backgroundColor: "#4b4b4b",
@@ -153,7 +149,7 @@ function Home(props) {
       },
     },
     {
-      name: "Leave days",
+      name: "Leave Days",
       selector: (row) => row.ttlLeaves,
       style: {
         backgroundColor: "#4b4b4b",
@@ -161,7 +157,7 @@ function Home(props) {
       },
     },
     {
-      name: "attachment",
+      name: "Attachment",
       selector: (row) => {
         if (row.attachment && row.attachment.fileName) {
           return row.attachment.fileName;
@@ -218,10 +214,7 @@ function Home(props) {
             </div>
             <div className="card2">
               <div className="card-inner">
-                <h2>
-                  UPCOMING HOLIDAYS LIST
-                  <FcLeave className="icon" />
-                </h2>
+                <h2>UPCOMING HOLIDAYS LIST</h2>
               </div>
 
               <h2>
@@ -230,16 +223,16 @@ function Home(props) {
                     <li key={index}>
                       <span>{holiday.name}</span>
                       <span className="date">
-                        {holiday.date.substring(0, 10)}
+                        {holiday.date.substring(5, 10)}
                       </span>
                     </li>
                   ))}
                 </ul>
               </h2>
-              {/* // PDF View */}
               <button
                 onClick={() => window.open(PDFViewer, "_blank")}
                 rel="noreferrer"
+                className="btn_viewHolidayList"
               >
                 View Holiday List
               </button>
@@ -256,13 +249,8 @@ function Home(props) {
                         label: "Count",
                         data: chartData.map((data) => data.days),
                         backgroundColor: [
-                          "rgb(155, 191, 224)",
-                          "rgb(232, 160, 154)",
-                          "rgb(251, 226, 159)",
-                          "rgb(198, 214, 143)",
-                          // "rgb(255, 197, 1)",
-                          // "rgb(53, 79, 96)",
-                          // "rgb(188, 14, 76)",
+                          "rgb(255, 182, 104)",
+                          "rgb(250, 206, 77)",
                         ],
                         borderColor: ["rgba(25, 19, 1)"],
                         borderRadius: 5,
@@ -273,7 +261,7 @@ function Home(props) {
                     plugins: {
                       legend: {
                         labels: {
-                          color: "#face4d", // Set the color of labels to white
+                          color: "#face4d",
                         },
                       },
                     },
@@ -288,8 +276,6 @@ function Home(props) {
                 title={title}
                 columns={columns}
                 data={table}
-                // customStyles={customStyles}
-                // selectableRows
                 selectableRowsHighlight
                 highlightOnHover
                 pagination
@@ -297,28 +283,9 @@ function Home(props) {
                 fixedHeaderScrollHeight="350px"
               ></DataTable>
             </div>
-
-            {/* <div className="calendar">
-            <LocalizationProvider dateAdapter={AdapterDayjs}>
-              <StaticDatePicker orientation="landscape" />
-            </LocalizationProvider>
-          </div> */}
           </div>
         </div>
       )}
-
-      {/* <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-      /> */}
     </main>
   );
 }

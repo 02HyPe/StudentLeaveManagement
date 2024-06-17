@@ -8,7 +8,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Loginform = (props) => {
-  // const notify = () => toast("Wow so easy!");
   const [data, setData] = useState({
     email: "",
     userId: "",
@@ -38,9 +37,9 @@ const Loginform = (props) => {
               navigate("/dashboard");
             } else {
               localStorage.removeItem("jwt");
-              toast.error("Invalid Username and Password!", {
+              toast.error("Invalid Username and Password !", {
                 position: "top-right",
-                autoClose: 5000,
+                autoClose: 2500,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
@@ -48,16 +47,15 @@ const Loginform = (props) => {
                 progress: undefined,
                 theme: "dark",
               });
-              // alert("invalid credentials");
             }
             setLoading(false);
           }, 500);
         });
     } catch (error) {
       localStorage.removeItem("jwt");
-      toast.error("Invalid Username and Password!", {
+      toast.error("Invalid Username and Password !", {
         position: "top-right",
-        autoClose: 5000,
+        autoClose: 2500,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -82,7 +80,6 @@ const Loginform = (props) => {
                 type="email"
                 placeholder="Username"
                 onChange={(e) => setData({ ...data, email: e.target.value })}
-                required
               />
               <FaUser className="icon" />
             </div>
@@ -91,16 +88,12 @@ const Loginform = (props) => {
                 type="password"
                 placeholder="Password"
                 onChange={(e) => setData({ ...data, password: e.target.value })}
-                required
               />
               <FaLock className="icon" />
             </div>
 
             <div className="remember-forget">
-              {/* <label>
-            <input type="checkbox" />
-            Remember me
-          </label> */}
+    
               <a href="#">Forgot passoword?</a>
             </div>
 
@@ -108,17 +101,12 @@ const Loginform = (props) => {
               Login
             </button>
 
-            {/* <div className="register-link">
-          <p>
-          Don't have an account? <a href="/register">Register</a>
-          </p>
-        </div> */}
           </form>
         )}
       </div>
       <ToastContainer
         position="top-right"
-        autoClose={5000}
+        autoClose={2500}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick

@@ -28,7 +28,6 @@ const adminRoutes = require(`./api/routes/admin`);
 const moderatorRoutes = require(`./api/routes/moderator`);
 const authRoutes = require(`./api/routes/auth`);
 const userRoutes = require(`./api/routes/user`);
-// const resetLeave = require(`./api/controllers/student`);//sefsefsefsefs
 const isAuth = require(`./api/middlewares/is-auth`);
 
 const MONGO_URL = `mongodb+srv://vansh1501:StudentLeave@cluster0.zzxw7zq.mongodb.net/sleave`;

@@ -13,7 +13,6 @@ const createLeave = async (req, res, next) => {
     const leave = new Leave({
       numberOfLeave: body.leaveDays,
       authority: body.authority,
-      // leaveFor: body.leaveFor,
     });
     if (body.publicHoliday === true) {
       leave["leaveName"] = body.leaveName;
@@ -60,7 +59,6 @@ const leaveTypeDetails = async (req, res, next) => {
         $limit: 3,
       },
     ]);
-    // logger.info(holidayLeave, "awdawdadawdad");
     const leavesType = leaveType.map((leave) => ({
       name: leave.typeOfLeave,
       days: leave.numberOfLeave,
@@ -128,7 +126,7 @@ const applyLeave = async (req, res, next) => {
       status: "Pending",
     });
 
-    if (ttlLeaveDays > 7) {
+    if (ttlLeaveDays > 10) {
       if (
         body.typeOfLeave === "NSS" ||
         body.typeOfLeave === "NCC" ||
@@ -168,7 +166,6 @@ const applyLeave = async (req, res, next) => {
     );
 
     const transporter = mailer.createTransport({
-      // host: `smtp.ethereal.email`,
       port: 587,
       secure: false,
       service: `gmail`,
@@ -192,7 +189,7 @@ const applyLeave = async (req, res, next) => {
         leaveDetails[`description`]
       }`,
     });
-    logger.info(user, info.messageId);
+    logger.info(user, info.messageId, "fgyhufghffghgfhfghfghfghfghfgh");
 
     logger.info("leave form applied", result, leaveInduction);
 
@@ -223,10 +220,8 @@ const displayLeaveDetails = async (req, res, next) => {
     const leavesRejected = await LeaveDetails.countDocuments({
       status: "Rejected",
     });
-    // logger.info(leaveResult);
     const promiseArray = leaveResult.map(async (leave) => {
       const userResult = await User.findById(leave.userInfo._id);
-      // logger.info("userresult--", userResult);
       let attachmentData = null;
 
       const leaveData = {
@@ -251,7 +246,6 @@ const displayLeaveDetails = async (req, res, next) => {
       return leaveData;
     });
     const leaveData = await Promise.all(promiseArray);
-    // logger.info("-0-0-0-00-", leaveData);
     return res.status(200).json({
       leaveData,
       pendingLeaves: leavesPending,
@@ -269,7 +263,7 @@ const displayLeaveDetails = async (req, res, next) => {
 const displayMentorLeaveDetails = async (req, res, next) => {
   try {
     const leaveResult = await LeaveDetails.find({
-      "userInfo.type": { $in: ["Mentor", "Faculty", "H.O.D"] },
+      "userInfo.type": "Moderator",
     });
 
     const [leavesPending, leavesApproved, leavesRejected] = await Promise.all([
@@ -302,7 +296,7 @@ const displayMentorLeaveDetails = async (req, res, next) => {
         };
       })
     );
-
+    logger.info(leaveData, "awjkdnawkjdnawjkdbawk");
     res.status(200).json({
       leaveData,
       pendingLeaves: leavesPending,
@@ -352,7 +346,7 @@ const studentToMentorLeaveDetails = async (req, res, next) => {
             dateFrom: leave.dateFrom,
             dateTo: leave.dateTo,
             description: leave.description,
-            leave: mentorResult.leave,
+            leave: student.leave,
             leaveOutof: 7,
           };
 
@@ -546,7 +540,6 @@ const updateLeaveDetails = async (req, res, next) => {
         }
       }
     }
-    //----------------- mentor's leave update
     if (
       leaveUserResult.authority === "Faculty" ||
       leaveUserResult.authority === "Mentor"
@@ -608,9 +601,14 @@ const updateLeaveDetails = async (req, res, next) => {
         return res.status(401).json({ msg: "unauthorized" });
       }
     }
+    let status;
+    if (body.approve === true) {
+      status = "Approved";
+    } else {
+      status = Rejected;
+    }
     const updatedUser = await User.findById(leaveUserResult._id);
     const transporter = mailer.createTransport({
-      // host: `smtp.ethereal.email`,
       port: 587,
       secure: false,
       service: `gmail`,
@@ -625,8 +623,8 @@ const updateLeaveDetails = async (req, res, next) => {
         address: `tubeyunbox000@gmail.com`,
       },
       to: `${leaveUserResult.email}`,
-      subject: `Leave ${updatedUser.status}`,
-      text: `Your leave have been ${updatedUser.status}`,
+      subject: `Leave ${status}`,
+      text: `Your leave have been ${status}`,
     });
     logger.info(user, info.messageId);
     logger.info("successfully updated leave request", leaveUserResultUpdate);

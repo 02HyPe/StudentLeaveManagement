@@ -20,7 +20,7 @@ function LeaveType() {
   });
 
   const createLeave = async (event) => {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault(); 
     try {
       const result = await axios.post(
         "http://localhost:9000/admin/leaveType",
@@ -97,7 +97,7 @@ function LeaveType() {
                     <input
                       type="text"
                       value={data.leaveDays}
-                      placeholder="leavedays"
+                      placeholder="Leave Days"
                       onChange={(e) =>
                         setData({ ...data, leaveDays: e.target.value })
                       }
@@ -108,7 +108,7 @@ function LeaveType() {
                     <input
                       type="text"
                       value={data.leaveName}
-                      placeholder="leavename"
+                      placeholder="Leave Name"
                       onChange={(e) =>
                         setData({ ...data, leaveName: e.target.value })
                       }
@@ -219,7 +219,7 @@ function LeaveType() {
         </div>
         <ToastContainer
           position="top-right"
-          autoClose={5000}
+          autoClose={2500}
           hideProgressBar={false}
           newestOnTop={false}
           closeOnClick

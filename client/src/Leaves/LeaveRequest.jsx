@@ -43,8 +43,10 @@ const LeaveRequest = () => {
     try {
       let approve;
       if (status === "Approved") {
+        // setLoading(true)
         approve = true;
         toast.success("Approved");
+        
       } else {
         approve = false;
         toast.success("Rejected");
@@ -65,7 +67,7 @@ const LeaveRequest = () => {
         );
         const updatedCount = { ...count };
         updatedCount[status.toLowerCase()] += 1;
-        updatedCount["pending"] -= 1;
+        updatedCount["pending"] -= 1; // Reduce pending count when a decision is made
         setCount(updatedCount);
         showToast(status);
       }
@@ -73,6 +75,7 @@ const LeaveRequest = () => {
       console.log("cannot update ", err);
     }
   };
+  
 
   const mentorLeaves = () => {
     axios
@@ -99,7 +102,7 @@ const LeaveRequest = () => {
         headers: headers,
       })
       .then((res) => {
-        console.log(res.data);
+        console.log(res.data, `opps`);
         setLeaves(res.data.leaveData);
         setCount({
           pending: res.data.pendingLeaves,
@@ -134,7 +137,6 @@ const LeaveRequest = () => {
 
   const token = localStorage.getItem(`token`);
   const tokenPayload = JSON.parse(atob(token.split(".")[1]));
-  console.log(tokenPayload);
   const userName = tokenPayload.name;
   const userType = tokenPayload.type;
 
@@ -246,11 +248,10 @@ const LeaveRequest = () => {
                   width={"100%"}
                   overflowX={"scroll"}
                   py={4}
-                  // shadow="md"
+                
                   borderWidth="1px"
                   boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
                 >
-                  {/* <Text>{`Type: ${leave.type}, Status: ${leave.status}`}</Text> */}
 
                   <Table
                     width={"100%"}
@@ -261,7 +262,7 @@ const LeaveRequest = () => {
                     <Thead boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}>
                       <Tr>
                         <Th textAlign={"left"} padding="13px">
-                          Student
+                          Name
                         </Th>
                         <Th textAlign={"left"}>Leave Type</Th>
                         <Th textAlign={"left"}>From</Th>
@@ -455,12 +456,9 @@ const LeaveRequest = () => {
                   width={"100%"}
                   overflowX={"scroll"}
                   py={4}
-                  // shadow="md"
                   borderWidth="1px"
                   boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
                 >
-                  {/* <Text>{`Type: ${leave.type}, Status: ${leave.status}`}</Text> */}
-
                   <Table
                     width={"100%"}
                     backgroundColor={"#ffffff"}
@@ -470,7 +468,7 @@ const LeaveRequest = () => {
                     <Thead boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}>
                       <Tr>
                         <Th textAlign={"left"} padding="13px">
-                          Student
+                          Name
                         </Th>
                         <Th textAlign={"left"}>Leave Type</Th>
                         <Th textAlign={"left"}>From</Th>
@@ -551,7 +549,6 @@ const LeaveRequest = () => {
                           <Td
                             padding="20px"
                             boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
-                            // display={"inline"}
                           >
                             {leave.description}
                           </Td>
@@ -572,7 +569,6 @@ const LeaveRequest = () => {
                                 boxShadow={"0 6px 7px -3px rgba(0, 0, 0, 0.35)"}
                                 backgroundColor={"#3182ce!important"}
                                 borderRadius={0}
-                                // flex={1}
                                 isDisabled={
                                   leave.status == "Approved" ? true : ""
                                 }

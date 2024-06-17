@@ -31,7 +31,7 @@ const schema = new mongoose.Schema({
     sparse: true,
     validate: {
       validator: function (v) {
-        return /^[SR][0-9]{9}$/.test(v);
+        return /^SR\d{2}[A-Za-z]{4}\d{3}$/.test(v);
       },
       message: (props) => `${props.value} is not a valid enroll number!`,
     },
@@ -46,7 +46,7 @@ const schema = new mongoose.Schema({
   year: { type: String, required: false },
   mentor: { type: Object, required: false },
   batch: { type: Array, required: false },
-  leave: { type: Number, required: true },
+  leave: { type: Number, required: true, default: 0 },
 });
 
 schema.index(
