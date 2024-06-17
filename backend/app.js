@@ -3,7 +3,7 @@ const cors = require("cors");
 const cron = require("node-cron");
 const mongoose = require(`mongoose`);
 const app = express();
-const port = process.env.PORT || 9000
+const port = process.env.PORT || 9000;
 const log4js = require("log4js");
 const logger = log4js.getLogger();
 log4js.configure({

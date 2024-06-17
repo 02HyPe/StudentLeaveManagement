@@ -52,7 +52,7 @@ const LeaveRequest = () => {
         toast.success("Rejected");
       }
       const res = await axios.put(
-        "http://localhost:9000/moderator/updateLeave",
+        "https://studentleavemanagement-1.onrender.com/moderator/updateLeave",
         { leave_id: id, approve: approve },
         {
           headers: headers,
@@ -79,7 +79,7 @@ const LeaveRequest = () => {
 
   const mentorLeaves = () => {
     axios
-      .get("http://localhost:9000/moderator/mentorLeaveList", {
+      .get("https://studentleavemanagement-1.onrender.com/moderator/mentorLeaveList", {
         headers: headers,
       })
       .then((res) => {
@@ -98,7 +98,7 @@ const LeaveRequest = () => {
 
   const leaveList = () => {
     axios
-      .get("http://localhost:9000/admin/leaveList", {
+      .get("https://studentleavemanagement-1.onrender.com/admin/leaveList", {
         headers: headers,
       })
       .then((res) => {
@@ -116,7 +116,7 @@ const LeaveRequest = () => {
   };
   useEffect(() => {
     axios
-      .get("http://localhost:9000/admin/leaveList", {
+      .get("https://studentleavemanagement-1.onrender.com/admin/leaveList", {
         headers: headers,
       })
       .then((res) => {

@@ -33,7 +33,7 @@ function LeaveForm(props) {
     formData.append("attachment", data.attachment);
     try {
       await axios
-        .post("http://localhost:9000/user/leaveForm", formData, {
+        .post("https://studentleavemanagement-1.onrender.com/user/leaveForm", formData, {
           headers: {
             ...headers,
             "Content-Type": "multipart/form-data",
@@ -77,7 +77,7 @@ function LeaveForm(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:9000/user/profile", {
+        const response = await axios.get("https://studentleavemanagement-1.onrender.com/user/profile", {
           headers: headers,
         });
         const updateLoading = () => {
