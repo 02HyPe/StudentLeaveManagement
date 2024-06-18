@@ -31,7 +31,7 @@ function updateProfile() {
     const fetchMentorData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:9000/admin/registerForm",
+          "https://studentleavemanagement-1.onrender.com/admin/registerForm",
           {
             headers: headers,
           }
@@ -50,7 +50,7 @@ function updateProfile() {
     const fetchUserData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:9000/admin/updateDetails/${user_id}`,
+          `https://studentleavemanagement-1.onrender.com/admin/updateDetails/${user_id}`,
           {
             headers: headers,
           }
@@ -88,7 +88,7 @@ function updateProfile() {
     try {
       console.log(data);
       const result = await axios.put(
-        "http://localhost:9000/admin/user/update",
+        "https://studentleavemanagement-1.onrender.com/admin/user/update",
         {
           user_id: user_id,
 

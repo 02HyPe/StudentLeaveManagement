@@ -20,7 +20,7 @@ function Profile() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:9000/user/profile", {
+        const res = await axios.get("https://studentleavemanagement-1.onrender.com/user/profile", {
           headers: { authorization: "Bearer " + localStorage.getItem("token") },
         });
         console.log(res);

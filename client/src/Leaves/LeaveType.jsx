@@ -23,7 +23,7 @@ function LeaveType() {
     event.preventDefault(); 
     try {
       const result = await axios.post(
-        "http://localhost:9000/admin/leaveType",
+        "https://studentleavemanagement-1.onrender.com/admin/leaveType",
         {
           leaveName: data.leaveName,
           typeOfLeave: data.typeOfLeave,

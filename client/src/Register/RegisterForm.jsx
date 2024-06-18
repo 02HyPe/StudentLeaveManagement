@@ -30,7 +30,7 @@ function App() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:9000/admin/registerForm",
+          "https://studentleavemanagement-1.onrender.com/admin/registerForm",
           {
             headers: headers,
           }
@@ -63,7 +63,7 @@ function App() {
     try {
       await axios
         .post(
-          "http://localhost:9000/admin/user",
+          "https://studentleavemanagement-1.onrender.com/admin/user",
           {
             type: "Moderator",
             firstName: firstName,
@@ -143,7 +143,7 @@ function App() {
     try {
       await axios
         .post(
-          "http://localhost:9000/admin/user",
+          "https://studentleavemanagement-1.onrender.com/admin/user",
           {
             type: "Student",
             firstName: firstName,
