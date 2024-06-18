@@ -49,7 +49,7 @@ function Users() {
 
   const getUsers = () => {
     axios
-      .get("http://localhost:9000/admin/userDetail", {
+      .get("https://studentleavemanagement-1.onrender.com/admin/userDetail", {
         headers: headers,
       })
       .then((res) => {
@@ -73,7 +73,7 @@ function Users() {
 
   const users = (type) => {
     axios
-      .get("http://localhost:9000/admin/userType", {
+      .get("https://studentleavemanagement-1.onrender.com/admin/userType", {
         params: {
           type: type,
         },
@@ -96,7 +96,7 @@ function Users() {
       if (confirmation) {
         console.log(user_id);
         const res = await axios.post(
-          "http://localhost:9000/admin/user/delete",
+          "https://studentleavemanagement-1.onrender.com/admin/user/delete",
           {
             user_id: user_id,
           },

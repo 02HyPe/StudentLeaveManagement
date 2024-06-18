@@ -42,7 +42,7 @@ function Home(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:9000/user/dashboardDtls", { headers })
+      .get("https://studentleavemanagement-1.onrender.com/user/dashboardDtls", { headers })
       .then((response) => {
         console.log(response.data);
         setChartData(response.data.leavesType);
@@ -60,7 +60,7 @@ function Home(props) {
     if (userType === "Admin") {
       props.setProgress(10);
       axios
-        .get("http://localhost:9000/admin/leaveList", { headers })
+        .get("https://studentleavemanagement-1.onrender.com/admin/leaveList", { headers })
         .then((result) => {
           setLoading(true);
           props.setProgress(30);
@@ -81,7 +81,7 @@ function Home(props) {
     } else if (userType === "Student") {
       props.setProgress(10);
       axios
-        .get("http://localhost:9000/student/leaveList", { headers })
+        .get("https://studentleavemanagement-1.onrender.com/student/leaveList", { headers })
         .then((result) => {
           setLoading(true);
           props.setProgress(30);
@@ -101,7 +101,7 @@ function Home(props) {
     } else if (userType === "Moderator") {
       props.setProgress(10);
       axios
-        .get("http://localhost:9000/moderator/myLeaveList", { headers })
+        .get("https://studentleavemanagement-1.onrender.com/moderator/myLeaveList", { headers })
         .then((result) => {
           setLoading(true);
           props.setProgress(30);
