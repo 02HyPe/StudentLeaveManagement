@@ -68,7 +68,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    origin: "https://leavemanagmentsrki.netlify.app",
+    origin: "https://66715718ab3297f22d82dd2b--leavemanagmentsrki.netlify.app/",
     credentials: true,
   })
 );
