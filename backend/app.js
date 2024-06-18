@@ -68,7 +68,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    origin: "https://studentleavemanagement-1.onrender.com",
+    origin: "https://66714b90e8af4cee13f77184--adorable-tanuki-959ff7.netlify.app",
     credentials: true,
   })
 );
