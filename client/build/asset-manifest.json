@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0eefcd4.css",
+    "main.js": "/static/js/main.f942f445.js",
+    "static/js/592.599f76a2.chunk.js": "/static/js/592.599f76a2.chunk.js",
+    "static/media/holidays-list.pdf": "/static/media/holidays-list.2096766f918bdbd4e4bb.pdf",
+    "static/media/loading.gif": "/static/media/loading.fc396547d29ce277b2ec.gif",
+    "static/media/logo.png": "/static/media/logo.13997787ecf155af7db8.png",
+    "index.html": "/index.html",
+    "main.c0eefcd4.css.map": "/static/css/main.c0eefcd4.css.map",
+    "main.f942f445.js.map": "/static/js/main.f942f445.js.map",
+    "592.599f76a2.chunk.js.map": "/static/js/592.599f76a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0eefcd4.css",
+    "static/js/main.f942f445.js"
+  ]
+}
