@@ -72,7 +72,13 @@ app.use(
     credentials: true,
   })
 );
-
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', 'https://66714b90e8af4cee13f77184--adorable-tanuki-959ff7.netlify.app');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  next();
+});
 cron.schedule(
   "0 0 1 6 *",
   async () => {
